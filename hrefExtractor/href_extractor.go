@@ -1,11 +1,26 @@
 package hrefExtractor
 
 import (
-	// "io"
+  "io"
+  "fmt"
+	"golang.org/x/net/html"
 )
 
-func Extract(responseBody []byte) [14]string {
+func Extract(responseBody io.Reader) []string {
+  result := []string{}
+  tokenizer := html.NewTokenizer(responseBody)
 
-  result := [14]string{"test"}
-  return result
+  for {
+  	token := tokenizer.Next()
+  	switch {
+    case token == html.ErrorToken:
+      return result
+    case token == html.StartTagToken:
+      tag := tokenizer.Token()
+      isAnchor := tag.Data == "a"
+      if isAnchor {
+          fmt.Println("found a link")
+      }
+    }
+  }
 }

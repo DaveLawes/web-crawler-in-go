@@ -3,7 +3,7 @@ package hrefExtractor
 import (
   "testing"
   "io/ioutil"
-  // "fmt"
+  "bytes"
 )
 
 func check(e error) {
@@ -12,18 +12,20 @@ func check(e error) {
   }
 }
 
-func TestExtract(t *testing.T) {
-  test_data, err := ioutil.ReadFile("./test_data/monzo_home_html.txt")
+func TestExtractTotal(t *testing.T) {
+  buffer, err := ioutil.ReadFile("./test_data/monzo_home_html.txt")
   check(err)
 
+  test_data := bytes.NewReader(buffer)
+
   result := Extract(test_data)
-  expectation := [14]string{"/", "/download", "/-play-store-redirect",
+  expectation := []string{"/", "/download", "/-play-store-redirect",
     "/features/apple-pay", "/features/travel", "/community", "/transparency",
     "blog/how-money-works", "/tone-of-voice", "/faq", "/legal/terms-and-conditions",
     "legal/fscs-information", "/legal/privacy-policy", "/legal/cookie-policy"}
 
-  if result != expectation {
-    t.Errorf("Result was incorrect, got: %s, want: %s", result, expectation)
+  if len(result) != len(expectation) {
+    t.Errorf("Result length was incorrect, got: %d, want: %d", len(result), len(expectation))
   }
 
 
