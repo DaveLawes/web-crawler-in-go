@@ -4,6 +4,9 @@ import (
   "testing"
   "io/ioutil"
   "bytes"
+  "strings"
+  "fmt"
+	"golang.org/x/net/html"
 )
 
 func check(e error) {
@@ -28,5 +31,25 @@ func TestExtractTotal(t *testing.T) {
     t.Errorf("Result length was incorrect, got: %d, want: %d", len(result), len(expectation))
   }
 
+}
+
+func TestGetLink(t *testing.T) {
+  string_data := `<a class="c-header__button" href="/download">Sign up</a>`
+  test_data := strings.NewReader(string_data)
+
+  tokenizer := html.NewTokenizer(test_data)
+  token := tokenizer.Next()
+  tag := tokenizer.Token()
+
+  href_attr := tag.Attr[1]
+
+  fmt.Println(token)
+  fmt.Println(href_attr.Val)
+
+  result := GetLink(tag)
+
+  if result != href_attr.Val {
+    t.Errorf("Href is incorrect, got: %s, want: %s", result, href_attr.Val)
+  }
 
 }

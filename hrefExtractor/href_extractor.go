@@ -17,10 +17,15 @@ func Extract(responseBody io.Reader) []string {
       return result
     case token == html.StartTagToken:
       tag := tokenizer.Token()
+      // assume tag is passed into GetLink
       isAnchor := tag.Data == "a"
       if isAnchor {
           fmt.Println("found a link")
       }
     }
   }
+}
+
+func GetLink(tag html.Token) string {
+  return "test"
 }
