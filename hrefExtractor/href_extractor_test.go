@@ -33,7 +33,7 @@ func TestExtractTotal(t *testing.T) {
 
 }
 
-func TestGetLink(t *testing.T) {
+func TestGetLinkFromTag(t *testing.T) {
   string_data := `<a class="c-header__button" href="/download">Sign up</a>`
   test_data := strings.NewReader(string_data)
 
@@ -46,9 +46,10 @@ func TestGetLink(t *testing.T) {
   fmt.Println(token)
   fmt.Println(href_attr.Val)
 
-  result := GetLink(tag)
+  result, _ := GetLinkFromTag(tag)
+  fmt.Println(result)
 
-  if result != href_attr.Val {
+  if result != "/download" {
     t.Errorf("Href is incorrect, got: %s, want: %s", result, href_attr.Val)
   }
 
