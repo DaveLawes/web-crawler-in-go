@@ -25,8 +25,6 @@ func Crawl(seedUrl string, client HttpClient) (UrlMap) {
       body := getBody.GetBody(client, current_seed)
       links := hrefExtractor.Extract(body)
       urlMap[current_seed] = links
-      fmt.Println("end of go func")
-      fmt.Println(urlMap)
       chFinished <- true
     }
   }()
@@ -37,14 +35,10 @@ func Crawl(seedUrl string, client HttpClient) (UrlMap) {
   }
 }
 
-// put seed in queue
-// iterate over queue:
-//    invoke GetBody and Extract
-// know when finished
-// close queue
-
-// first step:
-// add seed to queue
-// use url in queue inside a function
-// update from within func
-// return same result
+func addToMap(urlMap UrlMap, links []string) {
+  for _, url := range links {
+    if _, ok := urlMap[url]; !ok {
+      urlMap[url] = []string{}
+    }
+  }
+}

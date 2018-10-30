@@ -9,13 +9,7 @@ import (
   "reflect"
 )
 
-type MockNewGetBody struct {}
-
-type MockNewHrefExtractor struct {}
-
 type MockHttpClient struct {}
-
-// type UrlMap map[string][]string
 
 func (m *MockHttpClient) Get(url string) (*http.Response, error) {
   fmt.Println(url)
@@ -38,14 +32,18 @@ func TestCrawler_Crawl(t *testing.T) {
   }
 }
 
-// func TestCrawler_isUrlInQueue(t *testing.T) {
-//   queue := make(chan string)
-//   url := "testing"
-//
-//   expectation := false
-//   result := isUrlInQueue(url, queue)
-//
-//   if result != expectation {
-//     t.Errorf("Result does not match expectation")
-//   }
-// }
+func TestCrawler_addToMap(t *testing.T) {
+  links := []string{ "/download" }
+  urlMap := make(UrlMap)
+  urlMap["http://example.com"] = links
+
+  addToMap(urlMap, links)
+
+  expectation := make(UrlMap)
+  expectation["http://example.com"] = links
+  expectation["/download"] = []string{}
+
+  if reflect.DeepEqual(urlMap, expectation) == false {
+    t.Errorf("Result does not match expectation")
+  }
+}
