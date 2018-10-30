@@ -1,8 +1,7 @@
-package crawler
+package getBody
 
 import (
   "testing"
-  "fmt"
   "io/ioutil"
   "bytes"
   "net/http"
@@ -17,9 +16,9 @@ func (m *MockHttpClient) Get(url string) (*http.Response, error) {
   return response, nil
 }
 
-func TestCrawl(t *testing.T) {
+func TestGetBody(t *testing.T) {
   httpClient := &MockHttpClient{}
-  returned := Crawl(httpClient, "http://example.com/")
+  returned := GetBody(httpClient, "http://example.com/")
 
   buf := new(bytes.Buffer)
   buf.ReadFrom(returned)

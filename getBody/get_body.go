@@ -1,4 +1,4 @@
-package crawler
+package getBody
 
 import (
   "net/http"
@@ -15,7 +15,7 @@ func check(e error) {
   }
 }
 
-func Crawl(client HttpClient, url string) (httpBody io.ReadCloser) {
+func GetBody(client HttpClient, url string) (httpBody io.ReadCloser) {
   response, err := client.Get(url)
   check(err)
   return response.Body
