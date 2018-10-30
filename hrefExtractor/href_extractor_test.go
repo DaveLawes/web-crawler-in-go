@@ -49,12 +49,22 @@ func TestExtract_getLinkFromTag(t *testing.T) {
 
 }
 
-func TestExtract_isInDomain(t *testing.T) {
-  link := "/download"
-  result := isInDomain(link)
-  expectation := true
+func TestExtract_isInDomain_internal(t *testing.T) {
+  internal_link := "/download"
+  internal_result := isInDomain(internal_link)
+  internal_expectation := true
 
-  if result != expectation {
-    t.Errorf("Result is incorrect, got: %v, want %v", result, expectation)
+  if internal_result != internal_expectation {
+    t.Errorf("Result is incorrect, got: %v, want %v", internal_result, internal_expectation)
+  }
+}
+
+func TestExtract_isInDomain_external(t *testing.T) {
+  external_link := "https://itunes.apple.com/gb/app/mondo/id1052238659"
+  external_result := isInDomain(external_link)
+  external_expectation := false
+
+  if external_result != external_expectation {
+    t.Errorf("Result is incorrect, got: %v, want %v", external_result, external_expectation)
   }
 }
