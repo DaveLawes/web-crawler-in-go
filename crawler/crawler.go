@@ -16,8 +16,7 @@ func check(e error) {
 }
 
 func Crawl(client HttpClient, url string) (httpBody io.ReadCloser) {
-  response, error := client.Get(url)
-  check(error)
-
+  response, err := client.Get(url)
+  check(err)
   return response.Body
 }

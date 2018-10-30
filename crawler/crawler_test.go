@@ -2,6 +2,7 @@ package crawler
 
 import (
   "testing"
+  "fmt"
   "io/ioutil"
   "bytes"
   "net/http"
@@ -22,8 +23,8 @@ func TestCrawl(t *testing.T) {
 
   buf := new(bytes.Buffer)
   buf.ReadFrom(returned)
-  response := buf.String()
 
+  response := buf.String()
   expectation := "Test"
 
   if response != expectation {
