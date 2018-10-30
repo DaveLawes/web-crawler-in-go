@@ -2,15 +2,11 @@ package main
 
 import (
   "net/http"
-  "io"
-  "getBody"
+  "web-crawler-in-go/pkg/crawler"
 )
-
-type HttpClient interface {
-   Get(string) (*http.Response, error)
-}
 
 func main() {
   seedUrl := "https://monzo.com"
   client := &http.Client{}
+  crawler.Crawl(seedUrl, client)
 }
