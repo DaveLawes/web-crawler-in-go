@@ -17,7 +17,7 @@ func check(e error) {
 }
 
 func TestExtract(t *testing.T) {
-  buffer, err := ioutil.ReadFile("./test_data/monzo_home_html.txt")
+  buffer, err := ioutil.ReadFile("../../../test/test_data/monzo_home_html.txt")
   check(err)
   test_data := bytes.NewReader(buffer)
 
