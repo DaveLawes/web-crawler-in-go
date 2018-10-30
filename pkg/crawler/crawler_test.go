@@ -37,3 +37,15 @@ func TestCrawler_Crawl(t *testing.T) {
     t.Errorf("Result does not match expectation")
   }
 }
+
+// func TestCrawler_isUrlInQueue(t *testing.T) {
+//   queue := make(chan string)
+//   url := "testing"
+//
+//   expectation := false
+//   result := isUrlInQueue(url, queue)
+//
+//   if result != expectation {
+//     t.Errorf("Result does not match expectation")
+//   }
+// }
