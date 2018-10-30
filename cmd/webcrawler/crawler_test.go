@@ -11,8 +11,12 @@ func (m *MockHttpClient) Get(url string) (*http.Response, error) {
   return response, nil
 }
 
-func TestWebcrawler(t *testing.T) {
+func TestCrawler(t *testing.T) {
 
   // check seed is added to channel
 
+}
+
+func TestCrawler_crawl(t *testing.T) {
+  
 }

@@ -3,6 +3,7 @@ package main
 import (
   "net/http"
   "io"
+  "getBody"
 )
 
 type HttpClient interface {
@@ -12,14 +13,15 @@ type HttpClient interface {
 func main() {
   seedUrl := "https://monzo.com"
   client := &http.Client{}
-
-
-
-
 }
 
-func crawl() {
+func crawl(client HttpClient, seedUrl string) {
+  urlQueue := make(chan string)
+  urlFinished := make(chan bool)
 
+  urlQueue <- seedUrl
+
+  body := getBody.GetBody(seedUrl)
 }
 
 // href extractor returns an array of url strings
