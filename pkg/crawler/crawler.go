@@ -16,8 +16,13 @@ type NewGetBody interface {
   GetBody(client HttpClient, url string) (httpBody io.ReadCloser)
 }
 
-func Crawl(seedUrl string, client HttpClient) {
+func Crawl(seedUrl string, client HttpClient) string {
   body := getBody.GetBody(client, seedUrl)
   links := hrefExtractor.Extract(body)
   fmt.Println(links)
+  output := ""
+  for i := 0; i < len(links); i++ {
+    output += (links[i] + "\n")
+  }
+  return fmt.Sprintf("%s:\n%s", seedUrl, output)
 }
