@@ -2,7 +2,6 @@ package hrefExtractor
 
 import (
   "io"
-  "fmt"
 	"golang.org/x/net/html"
   "net/url"
 )
@@ -18,9 +17,8 @@ func Extract(responseBody io.Reader) []string {
       return result
     case token == html.StartTagToken:
       tag := tokenizer.Token()
-      isAnchor := tag.Data == "a"
 
-      if !isAnchor {
+      if tag.Data != "a" {
         continue
       }
 
@@ -30,14 +28,11 @@ func Extract(responseBody io.Reader) []string {
         continue
       }
 
-      internalLink := isInDomain(href)
-
-      if !internalLink {
+      if !isInDomain(href) {
         continue
       }
-
+      
       result = append(result, href)
-      fmt.Println(href)
     }
   }
 }

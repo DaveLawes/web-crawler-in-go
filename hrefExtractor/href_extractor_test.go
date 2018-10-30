@@ -43,7 +43,6 @@ func TestExtract_getLinkFromTag(t *testing.T) {
   token := tokenizer.Next()
   fmt.Println(token)
   tag := tokenizer.Token()
-  fmt.Println(tag)
   result, _ := getLinkFromTag(tag)
   expectation := "/download"
 
