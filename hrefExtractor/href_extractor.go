@@ -44,12 +44,10 @@ func getLinkFromTag(tag html.Token) (href string, success bool) {
   return
 }
 
-func isInDomain(link string) bool {
+func isInDomain(link string) (success bool) {
   parsed, error := url.Parse(link)
-  if error == nil {
-    fmt.Println(parsed.Hostname())
-    fmt.Println(error)
+  if error == nil && len(parsed.Hostname()) == 0 {
+    success = true
   }
-
-  return false
+  return
 }
