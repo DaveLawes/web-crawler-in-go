@@ -7,6 +7,7 @@ import (
   "strings"
   "fmt"
 	"golang.org/x/net/html"
+  "reflect"
 )
 
 func check(e error) {
@@ -21,13 +22,16 @@ func TestExtract(t *testing.T) {
   test_data := bytes.NewReader(buffer)
 
   result := Extract(test_data)
-  expectation := []string {"/", "/download", "/-play-store-redirect",
-    "/features/apple-pay", "/features/travel", "/community", "/transparency",
-    "blog/how-money-works", "/tone-of-voice", "/faq", "/legal/terms-and-conditions",
-    "legal/fscs-information", "/legal/privacy-policy", "/legal/cookie-policy"}
+  expectation := []string {"/", "/about", "/blog", "/community", "/faq", "/download",
+    "/-play-store-redirect", "/features/apple-pay", "/features/travel", "/features/switch",
+    "/features/overdrafts", "/-play-store-redirect", "/cdn-cgi/l/email-protection#5a323f362a1a373534203574393537",
+    "/-play-store-redirect", "/about", "/blog", "/press", "/careers", "/community",
+    "/transparency", "/blog/how-money-works", "/tone-of-voice", "/faq", "/legal/terms-and-conditions",
+    "/legal/fscs-information", "/legal/privacy-policy", "/legal/cookie-policy", "/-play-store-redirect",
+    "/cdn-cgi/l/email-protection#670f020b17270a08091d084904080a"}
 
-  if len(result) != len(expectation) {
-    t.Errorf("Result length was incorrect, got: %d, want: %d", len(result), len(expectation))
+  if reflect.DeepEqual(result, expectation) != true {
+    t.Errorf("Result slices are not the same!")
   }
 
 }
@@ -39,7 +43,7 @@ func TestExtract_getLinkFromTag(t *testing.T) {
   token := tokenizer.Next()
   fmt.Println(token)
   tag := tokenizer.Token()
-
+  fmt.Println(tag)
   result, _ := getLinkFromTag(tag)
   expectation := "/download"
 

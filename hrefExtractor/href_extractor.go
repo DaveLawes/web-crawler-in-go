@@ -8,7 +8,7 @@ import (
 )
 
 func Extract(responseBody io.Reader) []string {
-  result := []string{}
+  result := []string {}
   tokenizer := html.NewTokenizer(responseBody)
 
   for {
@@ -26,10 +26,18 @@ func Extract(responseBody io.Reader) []string {
 
       href, success := getLinkFromTag(tag)
 
-      if success {
-        fmt.Println(href)
+      if !success {
+        continue
       }
 
+      internalLink := isInDomain(href)
+
+      if !internalLink {
+        continue
+      }
+
+      result = append(result, href)
+      fmt.Println(href)
     }
   }
 }
