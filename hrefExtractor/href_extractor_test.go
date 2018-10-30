@@ -32,7 +32,7 @@ func TestExtract(t *testing.T) {
 
 }
 
-func TestExtract_GetLinkFromTag(t *testing.T) {
+func TestExtract_getLinkFromTag(t *testing.T) {
   string_data := `<a class="c-header__button" href="/download">Sign up</a>`
   test_data := strings.NewReader(string_data)
   tokenizer := html.NewTokenizer(test_data)
@@ -40,11 +40,21 @@ func TestExtract_GetLinkFromTag(t *testing.T) {
   fmt.Println(token)
   tag := tokenizer.Token()
 
-  result, _ := GetLinkFromTag(tag)
+  result, _ := getLinkFromTag(tag)
   expectation := "/download"
 
   if result != expectation {
     t.Errorf("Href is incorrect, got: %s, want: %s", result, expectation)
   }
 
+}
+
+func TestExtract_isInDomain(t *testing.T) {
+  link := "/download"
+  result := isInDomain(link)
+  expectation := true
+
+  if result != expectation {
+    t.Errorf("Result is incorrect, got: %v, want %v", result, expectation)
+  }
 }
