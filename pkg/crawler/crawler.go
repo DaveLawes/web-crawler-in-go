@@ -17,12 +17,23 @@ type NewGetBody interface {
 }
 
 func Crawl(seedUrl string, client HttpClient) string {
+  foundUrls := []string {}
+
   body := getBody.GetBody(client, seedUrl)
   links := hrefExtractor.Extract(body)
   fmt.Println(links)
+  foundUrls = append(foundUrls, links...)
+
   output := ""
-  for i := 0; i < len(links); i++ {
-    output += (links[i] + "\n")
+  for i := 0; i < len(foundUrls); i++ {
+    output += (foundUrls[i] + "\n")
   }
+
   return fmt.Sprintf("%s:\n%s", seedUrl, output)
 }
+
+// put seed in queue
+// iterate over queue:
+//    invoke GetBody and Extract
+// know when finished
+// close queue
