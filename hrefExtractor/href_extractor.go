@@ -23,9 +23,9 @@ func Extract(responseBody io.Reader) []string {
         continue
       }
 
-      href, ok := GetLinkFromTag(tag)
+      href, success := GetLinkFromTag(tag)
 
-      if ok {
+      if success {
         fmt.Println(href)
       }
 
@@ -40,7 +40,5 @@ func GetLinkFromTag(tag html.Token) (href string, success bool) {
         success = true
       }
   }
-  fmt.Println(href)
-  fmt.Println(success)
   return
 }
