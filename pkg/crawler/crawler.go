@@ -14,23 +14,33 @@ type HttpClient interface {
 type UrlMap map[string][]string
 
 func Crawl(seedUrl string, client HttpClient) UrlMap {
+  fmt.Println("Crawl")
   urlMap := make(UrlMap)
+  urlQueue := make(chan string)
+  go func() { urlQueue <- seedUrl }()
 
-  body := getBody.GetBody(client, seedUrl)
-  links := hrefExtractor.Extract(body)
-  fmt.Println(links)
-  urlMap[seedUrl] = links
+  go func() {
+    fmt.Println("inside go func")
+    for current_seed := range urlQueue {
+      fmt.Println("inside for loop")
+      body := getBody.GetBody(client, current_seed)
+      links := hrefExtractor.Extract(body)
+      fmt.Println(links)
+      urlMap[current_seed] = links
+    }
+  }()
 
   return urlMap
 }
-
-// map:
-// key       value
-// parent: [children],
-// parent: [children]
 
 // put seed in queue
 // iterate over queue:
 //    invoke GetBody and Extract
 // know when finished
 // close queue
+
+// first step:
+// add seed to queue
+// use url in queue inside a function
+// update from within func
+// return same result
