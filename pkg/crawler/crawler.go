@@ -18,35 +18,26 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
   urlQueue := make(chan string)
   chFinished := make(chan bool)
 
-  pChFinished := &chFinished
-
   go func() { urlQueue <- seedUrl }()
 
-  // go func() {
-  //   // for current_seed := range urlQueue {
-  //   //   body := getBody.GetBody(client, current_seed)
-  //   //   links := hrefExtractor.Extract(body)
-  //   //   urlMap[current_seed] = links
-  //   //   chFinished <- true
-  //   // }
-  //   getLinks(urlQueue, client, urlMap, chFinished)
-  // }()
   for i := 0; i < 1; i++ {
     select {
     case url := <- urlQueue:
       fmt.Println("url added to queue")
       fmt.Println(url)
-      getLinks(url, client, urlMap, pChFinished)
+      go getLinks(url, client, urlMap, chFinished)
     case <- chFinished:
       fmt.Println("chFinished")
       i++
-      // break
+      break
     }
   }
+
+  fmt.Println(urlMap)
   return
 }
 
-func getLinks(url string, client HttpClient, urlMap UrlMap, pChFinished *chan bool) {
+func getLinks(url string, client HttpClient, urlMap UrlMap, chFinished chan bool) {
   fmt.Println("getLinks")
   fmt.Println(url)
   // for current_seed := range urlQueue {
@@ -55,7 +46,7 @@ func getLinks(url string, client HttpClient, urlMap UrlMap, pChFinished *chan bo
     links := hrefExtractor.Extract(body)
     fmt.Println(links)
     urlMap[url] = links
-    *pChFinished <- true
+    chFinished <- true
 
   // }
 }
