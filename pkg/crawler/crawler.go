@@ -25,7 +25,7 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
   for crawlComplete == false {
     select {
     case url := <- urlQueue:
-      go getLinks(url, client, urlMap, urlCrawled, urlQueue)
+      go getLinks(url, client, urlMap, urlCrawled, urlQueue, seedUrl)
     case <- urlCrawled:
       fmt.Println("urlCrawled")
       i++
@@ -43,8 +43,16 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
   return
 }
 
-func getLinks(url string, client HttpClient, urlMap UrlMap, urlCrawled chan bool, urlQueue chan string) {
-  body := getBody.GetBody(client, url)
+func getLinks(url string, client HttpClient, urlMap UrlMap, urlCrawled chan bool, urlQueue chan string, seed string) {
+  absUrl := ""
+  if url != seed {
+    absUrl = seed + url
+  } else {
+    absUrl = seed
+  }
+
+  fmt.Println(absUrl)
+  body := getBody.GetBody(client, absUrl)
   links := hrefExtractor.Extract(body)
   addToMap(url, urlMap, links, urlQueue)
   urlCrawled <- true
@@ -57,7 +65,6 @@ func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
     if _, ok := urlMap[url]; !ok {
       urlMap[url] = []string{}
       fmt.Println("url added to queue: ", url)
-      // only add url to queue if it's not already in map
       urlQueue <- url
     }
   }
