@@ -20,12 +20,10 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
 
   go func() { urlQueue <- seedUrl }()
 
-  for i := 0; i <= len(urlQueue); {
+  for i := 0; i <= len(urlMap); {
     select {
     case url := <- urlQueue:
-      fmt.Println("url added to queue")
-      fmt.Println(url)
-      go getLinks(url, client, urlMap, chFinished)
+      go getLinks(url, client, urlMap, chFinished, urlQueue)
     case <- chFinished:
       fmt.Println("chFinished")
       i++
@@ -36,13 +34,12 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
   return
 }
 
-func getLinks(url string, client HttpClient, urlMap UrlMap, chFinished chan bool) {
-  fmt.Println("getLinks")
-  fmt.Println(url)
+func getLinks(url string, client HttpClient, urlMap UrlMap, chFinished chan bool, urlQueue chan string) {
   body := getBody.GetBody(client, url)
-  fmt.Println(body)
   links := hrefExtractor.Extract(body)
-  fmt.Println(links)
+  for _, url := range links {
+    urlQueue <- url
+  }
   urlMap[url] = links
   chFinished <- true
 }
