@@ -16,38 +16,49 @@ type UrlMap map[string][]string
 func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
   urlMap = make(UrlMap)
   urlQueue := make(chan string)
-  chFinished := make(chan bool)
+  urlCrawled := make(chan bool)
+  crawlComplete := false
+  i := 0
 
   go func() { urlQueue <- seedUrl }()
 
-  for i := 0; i <= len(urlMap); {
+  for crawlComplete == false {
     select {
     case url := <- urlQueue:
-      go getLinks(url, client, urlMap, chFinished, urlQueue)
-    case <- chFinished:
-      fmt.Println("chFinished")
+      go getLinks(url, client, urlMap, urlCrawled, urlQueue)
+    case <- urlCrawled:
+      fmt.Println("urlCrawled")
       i++
+      fmt.Println(i)
+      fmt.Println(len(urlQueue))
+      fmt.Println(urlMap)
+      fmt.Println(len(urlMap))
+      if i == len(urlMap) {
+        fmt.Println("all urls crawled")
+        crawlComplete = true
+      }
     }
   }
 
-  fmt.Println(urlMap)
   return
 }
 
-func getLinks(url string, client HttpClient, urlMap UrlMap, chFinished chan bool, urlQueue chan string) {
+func getLinks(url string, client HttpClient, urlMap UrlMap, urlCrawled chan bool, urlQueue chan string) {
   body := getBody.GetBody(client, url)
   links := hrefExtractor.Extract(body)
-  for _, url := range links {
-    urlQueue <- url
-  }
-  urlMap[url] = links
-  chFinished <- true
+  addToMap(url, urlMap, links, urlQueue)
+  urlCrawled <- true
 }
 
-func addToMap(urlMap UrlMap, links []string) {
+func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
+  fmt.Println("addToMap")
+  urlMap[url] = links
   for _, url := range links {
     if _, ok := urlMap[url]; !ok {
       urlMap[url] = []string{}
+      fmt.Println("url added to queue: ", url)
+      // only add url to queue if it's not already in map
+      urlQueue <- url
     }
   }
 }
