@@ -2,6 +2,18 @@
 
 This is a simple web crawler in Go. Given a seed URL (domain name) the app searches through all href links and returns a list of all associated routes.
 
+## How to Use
+
+Ensure you have Go installed on your local machine then `git clone` this repo.
+
+#### How to Run
+
+To start the crawl navigate to `/cmd/webcrawler/` then run `go run main.go`.
+
+#### How to Test
+
+Each package has been created with its own test file. To test a package navigate to the relevant folder within `./pkg/` and run `go test`. 
+
 ## Specification
 
 * The crawler should be limited to one domain
