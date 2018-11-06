@@ -42,6 +42,16 @@ func TestCrawler_getAbsUrl(t *testing.T) {
   if expectation != result {
     t.Errorf("Incorrect absolute url created. Expected: %s, got: %s", expectation, result)
   }
+}
 
-  
+func TestCrawler_getRelUrl(t *testing.T) {
+  parentUrl := "/download"
+  url := "current"
+
+  expectation := "/download/current"
+  result := getRelUrl(url, parentUrl)
+
+  if expectation != result {
+    t.Errorf("Incorrect relative url created. Expected: %s, got: %s", expectation, result)
+  }
 }

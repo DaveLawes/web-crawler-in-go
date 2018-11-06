@@ -64,6 +64,10 @@ func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
   }
 }
 
+func getRelUrl(url string, parentUrl string) (relUrl string) { 
+  return parentUrl
+}
+
 func getAbsUrl(seedUrl string, url string) (absUrl string) {
   if url != seedUrl {
     absUrl = seedUrl + url
