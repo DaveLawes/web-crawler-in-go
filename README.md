@@ -20,7 +20,7 @@ Each package has been created with its own test file. To test a package navigate
 
 * The crawler should be limited to one domain
 * The crawler should not follow external links
-* The crawler should print a simple site amp
+* The crawler should print a simple site map
 
 
 ## User Stories
