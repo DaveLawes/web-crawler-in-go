@@ -3,8 +3,8 @@ package crawler
 import (
   "net/http"
   "fmt"
-  "web-crawler-in-go/pkg/getBody"
-  "web-crawler-in-go/pkg/hrefExtractor"
+  "github.com/DaveLawes/web-crawler-in-go/pkg/getBody"
+  "github.com/DaveLawes/web-crawler-in-go/pkg/hrefExtractor"
 )
 
 type HttpClient interface {

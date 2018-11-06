@@ -3,7 +3,7 @@ package main
 import (
   "net/http"
   "fmt"
-  "web-crawler-in-go/pkg/crawler"
+  "github.com/DaveLawes/web-crawler-in-go/pkg/crawler"
 )
 
 func main() {
