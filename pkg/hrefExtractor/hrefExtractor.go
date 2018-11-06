@@ -4,6 +4,7 @@ import (
   "io"
 	"golang.org/x/net/html"
   "net/url"
+  // "fmt"
 )
 
 func Extract(responseBody io.Reader) []string {
@@ -55,7 +56,11 @@ func isValid(link string) (success bool) {
   return
 }
 
-func isPhone(link string) (success bool) {
-  success = true
+func isPhone(link string) (isPhone bool) {
+  if len(link) > 4 {
+    if link[0:4] == "tel:" {
+      isPhone = true
+    }
+  }
   return
 }

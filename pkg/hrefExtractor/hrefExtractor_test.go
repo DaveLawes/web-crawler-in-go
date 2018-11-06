@@ -73,7 +73,7 @@ func TestExtract_isValid_externalLink(t *testing.T) {
 }
 
 func TestExtract_isValid_phoneLink(t *testing.T) {
-  phoneLink := "+442038720620"
+  phoneLink := "tel:+442038720620"
   result := isValid(phoneLink)
   expectation := false
 
