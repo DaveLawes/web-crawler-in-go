@@ -40,6 +40,8 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
     }
   }
 
+  close(urlQueue)
+  close(urlCrawled)
   return
 }
 
