@@ -11,7 +11,7 @@ type HttpClient interface {
 
 func check(e error) {
   if e != nil {
-    panic(e)
+    return
   }
 }
 
