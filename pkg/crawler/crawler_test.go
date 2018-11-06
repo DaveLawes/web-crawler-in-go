@@ -46,9 +46,9 @@ func TestCrawler_getAbsUrl(t *testing.T) {
 
 func TestCrawler_getRelUrls(t *testing.T) {
   parentUrl := "/download"
-  links := []string{ "/download", "current"}
+  links := []string{ "/download2", "current"}
 
-  expectation := []string{ "/download", "/download/current" }
+  expectation := []string{ "/download2", "/download/current" }
   result := getRelUrls(parentUrl, links)
 
   if reflect.DeepEqual(result, expectation) == false {

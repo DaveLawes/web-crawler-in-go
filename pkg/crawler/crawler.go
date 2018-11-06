@@ -54,8 +54,9 @@ func getLinks(url string, client HttpClient, urlMap UrlMap, urlCrawled chan bool
 
 func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
   fmt.Println("addToMap")
-  urlMap[url] = links
-  for _, url := range links {
+  relUrls := getRelUrls(url, links)
+  urlMap[url] = relUrls
+  for _, url := range relUrls {
     if _, ok := urlMap[url]; !ok {
       urlMap[url] = []string{}
       fmt.Println("url added to queue: ", url)
@@ -66,7 +67,6 @@ func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
 
 func getRelUrls(url string, links []string) (relUrls []string) {
   for i := 0; i < len(links); i++ {
-    fmt.Println(links[i][0:1])
     if links[i][0:1] == "/" {
       relUrls = append(relUrls, links[i])
     } else {
