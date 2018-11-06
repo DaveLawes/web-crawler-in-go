@@ -44,13 +44,7 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
 }
 
 func getLinks(url string, client HttpClient, urlMap UrlMap, urlCrawled chan bool, urlQueue chan string, seed string) {
-  absUrl := ""
-  if url != seed {
-    absUrl = seed + url
-  } else {
-    absUrl = seed
-  }
-
+  absUrl := getAbsUrl(seed, url)
   fmt.Println(absUrl)
   body := getBody.GetBody(client, absUrl)
   links := hrefExtractor.Extract(body)
@@ -68,4 +62,13 @@ func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
       urlQueue <- url
     }
   }
+}
+
+func getAbsUrl(seedUrl string, url string) (absUrl string) {
+  if url != seedUrl {
+    absUrl = seedUrl + url
+  } else {
+    absUrl = seedUrl
+  }
+  return
 }

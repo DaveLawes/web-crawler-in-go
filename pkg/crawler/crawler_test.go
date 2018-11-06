@@ -26,24 +26,22 @@ func TestCrawler_Crawl(t *testing.T) {
   expectation := make(UrlMap)
   links := []string { "/download" }
   expectation["http://example.com"] = links
+  expectation["/download"] = links
 
   if reflect.DeepEqual(result, expectation) == false {
-    t.Errorf("Result does not match expectation. Expected: %v, got: %v", expectation, result)
+    t.Errorf("Expected urlMap does not match result. Expected: %v, got: %v", expectation, result)
   }
 }
 
-// func TestCrawler_addToMap(t *testing.T) {
-//   links := []string{ "/download" }
-//   urlMap := make(UrlMap)
-//   urlMap["http://example.com"] = links
-//
-//   addToMap(urlMap, links)
-//
-//   expectation := make(UrlMap)
-//   expectation["http://example.com"] = links
-//   expectation["/download"] = []string{}
-//
-//   if reflect.DeepEqual(urlMap, expectation) == false {
-//     t.Errorf("Result does not match expectation. Expected: %v, got: %v", expectation, urlMap)
-//   }
-// }
+func TestCrawler_getAbsUrl(t *testing.T) {
+  seedUrl := "http://example.com"
+  url := "/download"
+  expectation := "http://example.com/download"
+  result := getAbsUrl(seedUrl, url)
+
+  if expectation != result {
+    t.Errorf("Incorrect absolute url created. Expected: %s, got: %s", expectation, result)
+  }
+
+  
+}
