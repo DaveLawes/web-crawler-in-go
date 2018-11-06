@@ -8,7 +8,6 @@ import (
 
 
 func TestUrlPrinter_Print(t *testing.T) {
-  // desired output is a .txt file with the pretty printed map
   urlMap := make(map[string][]string)
   urlMap["http://example.com"] = []string{ "/test1", "/test2"}
   urlMap["/test1"] = []string{ "/test3" }
