@@ -28,6 +28,55 @@ I'd like the app to print all the links in our domain
 
 ```
 
+Some user stories for edge cases:
+
+```
+As a product owner
+So I can visualise valid links only
+I'd like the app to remove an telephone numbers
+
+As a product owner
+So I can visualise valid links only
+I'd like the app to record valid relative urls only
+```
+
 ## Domain Model
 
+```                              
+╔═══════════════════════╗     
+║                         ║ specifies seed url
+║        main.go          ║ starts crawl 
+║                         ║ returns result
+╚═══════════════════════╝  
+            |
+            |  
+            | 
+            |
+            |      ╔════════════╗
+            |      ║             ║  Creates go routine for each url found:   
+            |------║   crawler   ║     - gets links and adds links to map of urls found
+            |      ║             ║  Returns map of all urls   
+            |      ╚════════════╝  
+            |             |    
+            |             |   
+            |             |             ╔════════════╗  
+            |             |             ║             ║  
+            |             |-------------║   getBody   ║  Returns body of http response given a specific url 
+            |             |             ║             ║  
+            |             |             ╚════════════╝  
+            |             |  
+            |             |
+            |             |             ╔════════════╗  
+            |             |             ║             ║  
+            |             |-------------║hrefExtractor║  Returns an array of all href links found on an html body 
+            |                           ║             ║  
+            |                           ╚════════════╝
+            |          
+            |
+            |       ╔════════════╗
+            |       ║             ║  
+            |-------║ urlPrinter  ║  Pretty prints a map of urls found from the crawl
+                    ║             ║
+                    ╚════════════╝
 
+```
