@@ -17,7 +17,7 @@ func check(e error) {
 }
 
 func TestExtract(t *testing.T) {
-  buffer, err := ioutil.ReadFile("../../../test/test_data/monzo_home_html.txt")
+  buffer, err := ioutil.ReadFile("../../test/test_data/monzo_home_html.txt")
   check(err)
   test_data := bytes.NewReader(buffer)
 
@@ -52,22 +52,32 @@ func TestExtract_getLinkFromTag(t *testing.T) {
 
 }
 
-func TestExtract_isInDomain_internal(t *testing.T) {
+func TestExtract_isValid_inDomain(t *testing.T) {
   internal_link := "/download"
-  internal_result := isInDomain(internal_link)
+  internal_result := isValid(internal_link)
   internal_expectation := true
 
   if internal_result != internal_expectation {
-    t.Errorf("Result is incorrect, got: %v, want %v", internal_result, internal_expectation)
+    t.Errorf("Internal links not correctly identified, got: %v, want %v", internal_result, internal_expectation)
   }
 }
 
-func TestExtract_isInDomain_external(t *testing.T) {
+func TestExtract_isValid_externalLink(t *testing.T) {
   external_link := "https://itunes.apple.com/gb/app/mondo/id1052238659"
-  external_result := isInDomain(external_link)
+  external_result := isValid(external_link)
   external_expectation := false
 
   if external_result != external_expectation {
-    t.Errorf("Result is incorrect, got: %v, want %v", external_result, external_expectation)
+    t.Errorf("External links not correctly identified, got: %v, want %v", external_result, external_expectation)
+  }
+}
+
+func TestExtract_isValid_phoneLink(t *testing.T) {
+  phoneLink := "+442038720620"
+  result := isValid(phoneLink)
+  expectation := false
+
+  if result != expectation {
+    t.Errorf("Phone numbers not correctly identified, got: %v, want %v", result, expectation)
   }
 }

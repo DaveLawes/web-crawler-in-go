@@ -28,10 +28,10 @@ func Extract(responseBody io.Reader) []string {
         continue
       }
 
-      if !isInDomain(href) {
+      if !isValid(href) {
         continue
       }
-      
+
       result = append(result, href)
     }
   }
@@ -47,10 +47,15 @@ func getLinkFromTag(tag html.Token) (href string, success bool) {
   return
 }
 
-func isInDomain(link string) (success bool) {
+func isValid(link string) (success bool) {
   parsed, error := url.Parse(link)
-  if error == nil && len(parsed.Hostname()) == 0 {
+  if error == nil && len(parsed.Hostname()) == 0 && !isPhone(link) {
     success = true
   }
+  return
+}
+
+func isPhone(link string) (success bool) {
+  success = true
   return
 }
