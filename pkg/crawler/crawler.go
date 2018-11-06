@@ -36,7 +36,7 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
       // fmt.Println(len(urlQueue))
       // fmt.Println(urlMap)
       // fmt.Println(len(urlMap))
-      if i == len(urlMap) {
+      if i == 100 {
         fmt.Println("all urls crawled")
         crawlComplete = true
       }
@@ -50,7 +50,7 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
 
 func getLinks(url string, client HttpClient, urlMap UrlMap, urlCrawled chan bool, urlQueue chan string, seed string) {
   absUrl := getAbsUrl(seed, url)
-  fmt.Println(absUrl)
+  // fmt.Println(absUrl)
   body := getBody.GetBody(client, absUrl)
   links := hrefExtractor.Extract(body)
   addToMap(url, urlMap, links, urlQueue)
@@ -58,7 +58,7 @@ func getLinks(url string, client HttpClient, urlMap UrlMap, urlCrawled chan bool
 }
 
 func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
-  fmt.Println("addToMap")
+  // fmt.Println("addToMap")
   relUrls := getRelUrls(url, links)
   lock.Lock()
   urlMap[url] = relUrls
@@ -68,7 +68,7 @@ func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
       lock.Lock()
       urlMap[url] = []string{}
       lock.Unlock()
-      fmt.Println("url added to queue: ", url)
+      // fmt.Println("url added to queue: ", url)
       urlQueue <- url
     }
   }
