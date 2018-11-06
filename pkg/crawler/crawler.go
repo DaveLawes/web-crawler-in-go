@@ -3,6 +3,7 @@ package crawler
 import (
   "net/http"
   "fmt"
+  "sync"
   "github.com/DaveLawes/web-crawler-in-go/pkg/getBody"
   "github.com/DaveLawes/web-crawler-in-go/pkg/hrefExtractor"
 )
@@ -12,6 +13,8 @@ type HttpClient interface {
 }
 
 type UrlMap map[string][]string
+
+var lock = sync.RWMutex{}
 
 func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
   urlMap = make(UrlMap)
@@ -27,12 +30,12 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
     case url := <- urlQueue:
       go getLinks(url, client, urlMap, urlCrawled, urlQueue, seedUrl)
     case <- urlCrawled:
-      fmt.Println("urlCrawled")
+      // fmt.Println("urlCrawled")
       i++
-      fmt.Println(i)
-      fmt.Println(len(urlQueue))
-      fmt.Println(urlMap)
-      fmt.Println(len(urlMap))
+      // fmt.Println(i)
+      // fmt.Println(len(urlQueue))
+      // fmt.Println(urlMap)
+      // fmt.Println(len(urlMap))
       if i == len(urlMap) {
         fmt.Println("all urls crawled")
         crawlComplete = true
@@ -40,8 +43,8 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
     }
   }
 
-  close(urlQueue)
-  close(urlCrawled)
+  // close(urlQueue)
+  // close(urlCrawled)
   return
 }
 
@@ -57,10 +60,14 @@ func getLinks(url string, client HttpClient, urlMap UrlMap, urlCrawled chan bool
 func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
   fmt.Println("addToMap")
   relUrls := getRelUrls(url, links)
+  lock.Lock()
   urlMap[url] = relUrls
+  lock.Unlock()
   for _, url := range relUrls {
     if _, ok := urlMap[url]; !ok {
+      lock.Lock()
       urlMap[url] = []string{}
+      lock.Unlock()
       fmt.Println("url added to queue: ", url)
       urlQueue <- url
     }
