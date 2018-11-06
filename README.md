@@ -1,5 +1,7 @@
 # web-crawler-in-go
 
+[![Build Status](https://travis-ci.org/DaveLawes/web-crawler-in-go.svg?branch=master)](https://travis-ci.org/DaveLawes/web-crawler-in-go)
+
 This is a simple web crawler in Go. Given a seed URL (domain name) the app searches through all href links and returns a list of all associated routes.
 
 ## How to Use
