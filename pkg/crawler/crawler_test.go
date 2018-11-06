@@ -44,14 +44,14 @@ func TestCrawler_getAbsUrl(t *testing.T) {
   }
 }
 
-func TestCrawler_getRelUrl(t *testing.T) {
+func TestCrawler_getRelUrls(t *testing.T) {
   parentUrl := "/download"
-  url := "current"
+  links := []string{ "/download", "current"}
 
-  expectation := "/download/current"
-  result := getRelUrl(url, parentUrl)
+  expectation := []string{ "/download", "/download/current" }
+  result := getRelUrls(parentUrl, links)
 
-  if expectation != result {
+  if reflect.DeepEqual(result, expectation) == false {
     t.Errorf("Incorrect relative url created. Expected: %s, got: %s", expectation, result)
   }
 }

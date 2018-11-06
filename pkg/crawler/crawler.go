@@ -64,8 +64,16 @@ func addToMap(url string, urlMap UrlMap, links []string, urlQueue chan string) {
   }
 }
 
-func getRelUrl(url string, parentUrl string) (relUrl string) { 
-  return parentUrl
+func getRelUrls(url string, links []string) (relUrls []string) {
+  for i := 0; i < len(links); i++ {
+    fmt.Println(links[i][0:1])
+    if links[i][0:1] == "/" {
+      relUrls = append(relUrls, links[i])
+    } else {
+      relUrls = append(relUrls, url + "/" + links[i])
+    }
+  }
+  return
 }
 
 func getAbsUrl(seedUrl string, url string) (absUrl string) {
