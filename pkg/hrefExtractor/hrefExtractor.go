@@ -5,6 +5,7 @@ import (
 	"golang.org/x/net/html"
   "net/url"
   // "fmt"
+  "strings"
 )
 
 func Extract(responseBody io.Reader) []string {
@@ -33,6 +34,10 @@ func Extract(responseBody io.Reader) []string {
         continue
       }
 
+      if len(href) != 1 {
+        href = strings.TrimSuffix(href, "/")
+      }
+
       result = append(result, href)
     }
   }
@@ -50,18 +55,9 @@ func getLinkFromTag(tag html.Token) (href string, success bool) {
 
 func isValid(link string) (success bool) {
   parsed, err := url.Parse(link)
-  if err == nil && len(parsed.Hostname()) == 0 && !isPhone(link) {
+  if err == nil && !parsed.IsAbs() {
     if link[0:1] == "/" {
         success = true
-    }
-  }
-  return
-}
-
-func isPhone(link string) (isPhone bool) {
-  if len(link) > 4 {
-    if link[0:4] == "tel:" {
-      isPhone = true
     }
   }
   return
