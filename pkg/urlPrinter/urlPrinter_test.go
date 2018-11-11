@@ -3,6 +3,7 @@ package urlPrinter
 import (
   "testing"
   "io/ioutil"
+  "reflect"
 )
 
 
@@ -23,4 +24,21 @@ func TestUrlPrinter_Print(t *testing.T) {
   if result != expectation {
     t.Errorf("Returned string doesn't match expectation, got: %s, want: %s", result, expectation)
   }
+}
+
+func TestUrlPrinter_alphabeticalOrder(t *testing.T) {
+  urlMap := make(map[string][]string)
+  urlMap["http://example.com"] = []string{ "/test1", "/test2"}
+  urlMap["/test1"] = []string{ "/test3" }
+  urlMap["/test2"] = []string{}
+  urlMap["/test3"] = []string{}
+
+  expectation := []string{ "/test1", "/test2", "/test3", "http://example.com" }
+
+  result := alphabeticalOrder(urlMap)
+
+  if reflect.DeepEqual(result, expectation) == false {
+    t.Errorf("alphabeticalOrder incorrect, got: %s, want: %s", result, expectation)
+  }
+
 }
