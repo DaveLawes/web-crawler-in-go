@@ -1,0 +1,2362 @@
+-- SEED: https://monzo.com --
+
+- https://monzo.com:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /-play-store-redirect
+    /features/apple-pay
+    /features/travel
+    /features/switch
+    /features/overdrafts
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#e58d808995a5888a8b9f8acb868a88
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#dcb4b9b0ac9cb1b3b2a6b3f2bfb3b1
+
+- /:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /-play-store-redirect
+    /features/apple-pay
+    /features/travel
+    /features/switch
+    /features/overdrafts
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#c2aaa7aeb282afadacb8adeca1adaf
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#adc5c8c1ddedc0c2c3d7c283cec2c0
+
+- /-play-store-redirect:
+
+- /about:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /transparency
+    /tone-of-voice
+    /careers
+    /blog/2018/11/09/employee-social-media-guidelines
+    /blog/2018/11/09/national-living-minimum-wage
+    /blog/2018/11/08/monzo-transparency
+    /blog
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#28404d4458684547465247064b4745
+
+- /annual-report/2017:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /annual-report/2018
+    /annual-report/2017
+    /static/docs/annual-report-2017.pdf
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#d7bfb2bba797bab8b9adb8f9b4b8ba
+
+- /annual-report/2018:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /annual-report/2018
+    /annual-report/2017
+    /static/docs/annual-report-2018.pdf
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#a5cdc0c9d5e5c8cacbdfca8bc6cac8
+
+- /blog:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/2018/11/01/savings-pots
+    /blog/2018/10/31/big-news
+    /blog/2018/09/24/one-million-monzo-customers
+    /blog/2018/08/16/automate-your-finances
+    /blog/2018/11/09/employee-social-media-guidelines
+    /blog/2018/11/09/national-living-minimum-wage
+    /blog/2018/11/08/monzo-transparency
+    /blog/2018/11/07/making-monzo-roadmap
+    /blog/2018/11/07/pensions-explained
+    /blog/2018/11/06/how-to-name-something
+    /blog/2018/11/05/instant-apple-pay
+    /blog/product-updates
+    /blog/2018/11/05/instant-apple-pay
+    /blog/2018/11/01/savings-pots
+    /blog/2018/10/16/making-monzo-better
+    /blog/2018/10/09/bill-splitting
+    /blog/product-updates
+    /blog/how-money-works
+    /blog/2018/11/09/national-living-minimum-wage
+    /blog/2018/11/07/pensions-explained
+    /blog/2018/10/30/what-is-inflation
+    /blog/2018/10/25/interest-explained
+    /blog/how-money-works
+    /blog/monzo-101
+    /blog/2018/10/22/monzo-fscs-protection
+    /blog/2018/09/07/new-to-the-uk
+    /blog/2018/09/05/monzo-bank-statements
+    /blog/2018/09/04/move-your-salary-to-monzo
+    /blog/monzo-101
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#4028252c30002d2f2e3a2f6e232f2d
+
+- /blog/2017/03/06/transparency-dashboard:
+
+- /blog/2017/03/10/transparent-by-default:
+
+- /blog/2018/04/18/payment-reactions:
+
+- /blog/2018/04/25/switch-to-monzo:
+
+- /blog/2018/05/08/nearby-friends:
+
+- /blog/2018/05/09/sneak-peeks:
+
+- /blog/2018/05/16/coral-crew:
+
+- /blog/2018/05/17/apple-pay-is-here:
+
+- /blog/2018/05/22/making-monzo-better:
+
+- /blog/2018/06/05/monzo-exchange-rate:
+
+- /blog/2018/06/07/is-monzo-a-bank:
+
+- /blog/2018/06/08/adding-money-to-monzo:
+
+- /blog/2018/06/22/why-doesnt-monzo-have-branches:
+
+- /blog/2018/07/02/the-monzo-mission:
+
+- /blog/2018/07/10/making-quarterly-goals-public:
+
+- /blog/2018/07/25/monzo-reliability-report:
+
+- /blog/2018/07/27/how-we-monitor-monzo:
+
+- /blog/2018/08/08/better-credit-score:
+
+- /blog/2018/08/09/things-to-consider-before-you-borrow-money:
+
+- /blog/2018/08/09/what-is-a-credit-score:
+
+- /blog/2018/08/09/what-kind-of-credit-should-i-use:
+
+- /blog/2018/08/10/earning-money-explained:
+
+- /blog/2018/08/10/student-loans-explained:
+
+- /blog/2018/08/14/sharing-finances:
+
+- /blog/2018/08/15/manage-your-bills-with-monzo:
+
+- /blog/2018/08/15/split-the-bill:
+
+- /blog/2018/08/16/automate-your-finances:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-101
+    /blog/authors/beatrice-borbon
+    /blog/2018/08/15/manage-your-bills-with-monzo
+    /blog/2018/04/25/switch-to-monzo
+    /blog/monzo-101
+    /cdn-cgi/l/email-protection#073821666a773c7472656d6264733a446f62646c223537687273223537736f6e74223537656b6860223537776874733d2235374f68702235377368223537667273686a6673622235377e687275223537616e696669646e666b2235376b6e6162223537706e736f2235374a68697d6821666a773c6568637e3a4f68702235377368223537667273686a6673622235377e687275223537616e696669646e666b2235376b6e6162223537706e736f2235374a68697d682235372237432237462235376a68697d682964686a28656b6860283537363f28373f28363128667273686a6673622a7e6872752a616e69666964627428
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#3058555c40705d5f5e4a5f1e535f5d
+
+- /blog/2018/08/17/pin-lock-update:
+
+- /blog/2018/08/21/budget-with-monzo:
+
+- /blog/2018/08/21/savings-update:
+
+- /blog/2018/08/22/end-of-the-big-list:
+
+- /blog/2018/08/22/launching-3d-secure:
+
+- /blog/2018/08/23/schedule-payments-out-of-pots:
+
+- /blog/2018/08/23/seven-day-switch:
+
+- /blog/2018/08/30/manage-your-bills:
+
+- /blog/2018/09/03/is-monzo-free:
+
+- /blog/2018/09/04/move-your-salary-to-monzo:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-101
+    /blog/authors/beatrice-borbon
+    /blog/2018/06/07/is-monzo-a-bank
+    /blog/2018/06/05/monzo-exchange-rate
+    /blog/monzo-101
+    /cdn-cgi/l/email-protection#c2fde4a3afb2f9b1b7a0a8a7a1b6ff81aaa7a1a9e7f0f2adb7b6e7f0f2b6aaabb1e7f0f2a0aeada5e7f0f2b2adb1b6f8e7f0f28aadb5e7f0f2b6ade7f0f2a5a7b6e7f0f2bbadb7b0e7f0f2b1a3aea3b0bbe7f0f2b2a3aba6e7f0f2abacb6ade7f0f2bbadb7b0e7f0f28fadacb8ade7f0f2a3a1a1adb7acb6e4a3afb2f9a0ada6bbff8aadb5e7f0f2b6ade7f0f2a5a7b6e7f0f2bbadb7b0e7f0f2b1a3aea3b0bbe7f0f2b2a3aba6e7f0f2abacb6ade7f0f2bbadb7b0e7f0f28fadacb8ade7f0f2a3a1a1adb7acb6e7f0f2e7f286e7f283e7f0f2afadacb8adeca1adafeda0aeada5edf0f2f3faedf2fbedf2f6edafadb4a7efbbadb7b0efb1a3aea3b0bbefb6adefafadacb8aded
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#224a474e52624f4d4c584d0c414d4f
+
+- /blog/2018/09/05/monzo-bank-statements:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-101
+    /blog/authors/beatrice-borbon
+    /blog/2018/06/07/is-monzo-a-bank
+    /blog/2018/06/05/monzo-exchange-rate
+    /blog/monzo-101
+    /cdn-cgi/l/email-protection#e9d6cf888499d29a9c8b838c8a9dd4aa818c8a82ccdbd9869c9dccdbd99d81809accdbd98b85868eccdbd999869a9dd3ccdbd9a1869eccdbd99d86ccdbd98e8c9dccdbd988ccdbd98b888782ccdbd99a9d889d8c848c879dccdbd98f9b8684ccdbd9a486879386cf888499d28b868d90d4a1869eccdbd99d86ccdbd98e8c9dccdbd988ccdbd98b888782ccdbd99a9d889d8c848c879dccdbd98f9b8684ccdbd9a486879386ccdbd9ccd9adccd9a8ccdbd98486879386c78a8684c68b85868ec6dbd9d8d1c6d9d0c6d9dcc68486879386c48b888782c49a9d889d8c848c879d9ac6
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#a2cac7ced2e2cfcdccd8cd8cc1cdcf
+
+- /blog/2018/09/07/moving-to-the-uk:
+
+- /blog/2018/09/07/new-to-the-uk:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-101
+    /blog/authors/beatrice-borbon
+    /blog/2018/09/07/moving-to-the-uk
+    /blog/2018/09/07/open-a-uk-bank-account
+    /blog/monzo-101
+    /cdn-cgi/l/email-protection#7d425b1c100d460e081f17181e09403e15181e16584f4d120809584f4d0915140e584f4d1f11121a584f4d0d120e0947584f4d33180a584f4d0912584f4d091518584f4d283642584f4d320d1813584f4d1c584f4d1f1c1316584f4d1c1e1e12081309584f4d1413584f4d1014130809180e584f4d0a140915584f4d30121307125b1c100d461f1219044033180a584f4d0912584f4d091518584f4d283642584f4d320d1813584f4d1c584f4d1f1c1316584f4d1c1e1e12081309584f4d1413584f4d1014130809180e584f4d0a140915584f4d3012130712584f4d584d39584d3c584f4d1012130712531e1210521f11121a524f4d4c45524d44524d4a5213180a5009125009151850081652
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#2f474a435f6f4240415540014c4042
+
+- /blog/2018/09/07/open-a-uk-bank-account:
+
+- /blog/2018/09/10/renting-student-accommodation:
+
+- /blog/2018/09/11/student-budgeting-tips:
+
+- /blog/2018/09/13/student-loans-northern-ireland:
+
+- /blog/2018/09/18/ios-app-performance:
+
+- /blog/2018/09/21/protect-yourself-against-fraud-identity-theft:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/07/27/how-we-monitor-monzo
+    /blog/2018/07/25/monzo-reliability-report
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#1b243d7a766b20686e79717e786f2658737e78703e292b746e6f3e292b6f7372683e292b7977747c3e292b6b74686f213e292b53746c3e292b6f743e292b6b69746f7e786f3e292b62746e69687e777d3e292b7a7c7a7275686f3e292b727f7e756f726f623e292b6f737e7d6f3e292b7a757f3e292b7d697a6e7f3d7a766b2079747f622653746c3e292b6f743e292b6b69746f7e786f3e292b62746e69687e777d3e292b7a7c7a7275686f3e292b727f7e756f726f623e292b6f737e7d6f3e292b7a757f3e292b7d697a6e7f3e292b3e2b5f3e2b5a3e292b767475617435787476347977747c34292b2a23342b2234292a346b69746f7e786f3662746e69687e777d367a7c7a7275686f367d697a6e7f36727f7e756f726f62366f737e7d6f34
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#7e161b120e3e1311100411501d1113
+
+- /blog/2018/09/24/one-million-monzo-customers:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-hq
+    /blog/authors/team-monzo
+    /blog/2018/07/02/the-monzo-mission
+    /blog/2018/07/10/making-quarterly-goals-public
+    /blog/monzo-hq
+    /cdn-cgi/l/email-protection#49766f282439723a3c2b232c2a3d740a212c2a226c7b79263c3d6c7b793d21203a6c7b792b25262e6c7b7939263a3d736c7b797865797979657979796c7b79392c2639252c6c7b79283b2c6c7b7927263e6c7b793c3a20272e6c7b790426273326686f282439722b262d30747865797979657979796c7b79392c2639252c6c7b79283b2c6c7b7927263e6c7b793c3a20272e6c7b790426273326686c7b796c790d6c79086c7b792426273326672a2624662b25262e667b797871667970667b7d6626272c6424202525202627642426273326642a3c3a3d26242c3b3a66
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#7119141d01311c1e1f0b1e5f121e1c
+
+- /blog/2018/09/25/share-with-us:
+
+- /blog/2018/09/26/how-to-read-your-payslip:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/08/10/earning-money-explained
+    /blog/2018/08/30/manage-your-bills
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#a09f86c1cdd09bd3d5c2cac5c3d49de3c8c5c3cb859290cfd5d4859290d4c8c9d3859290c2cccfc7859290d0cfd3d49a859290e8cfd7859290d4cf859290d2c5c1c4859290d9cfd5d2859290d0c1d9d3ccc9d086c1cdd09bc2cfc4d99de8cfd7859290d4cf859290d2c5c1c4859290d9cfd5d2859290d0c1d9d3ccc9d08592908590e48590e1859290cdcfcedacf8ec3cfcd8fc2cccfc78f929091988f90998f92968fc8cfd78dd4cf8dd2c5c1c48dd9cfd5d28dd0c1d9d3ccc9d08f
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#d6beb3baa696bbb9b8acb9f8b5b9bb
+
+- /blog/2018/10/04/guarantors-how-and-why:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#b9869fd8d4c982caccdbd3dcdacd84fad1dcdad29c8b89d6cccd9c8b89cdd1d0ca9c8b89dbd5d6de9c8b89c9d6cacd839c8b89feccd8cbd8d7cdd6cbca839c8b89d1d6ce9c8b89d8d7dd9c8b89ced1dcd79c8b89cdd69c8b89cccadc9c8b89cdd1dcd49fd8d4c982dbd6ddc084feccd8cbd8d7cdd6cbca839c8b89d1d6ce9c8b89d8d7dd9c8b89ced1dcd79c8b89cdd69c8b89cccadc9c8b89cdd1dcd49c8b899c89fd9c89f89c8b89d4d6d7c3d697dad6d496dbd5d6de968b89888196888996898d96deccd8cbd8d7cdd6cbca94d1d6ce94d8d7dd94ced1c096
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#0c6469607c4c6163627663226f6361
+
+- /blog/2018/10/05/secured-unsecured-credit:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/08/09/what-kind-of-credit-should-i-use
+    /blog/2018/08/08/better-credit-score
+    /blog/2018/08/09/what-is-a-credit-score
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#bd829bdcd0cd86cec8dfd7d8dec980fed5d8ded6988f8dd2c8c9988f8dc9d5d4ce988f8ddfd1d2da988f8dcdd2cec987988f8deed8dec8cfd8d9988f8ddcd3d9988f8dc8d3ced8dec8cfd8d9988f8ddecfd8d9d4c9988f8d90988f8dcad5dcc99ace988f8dc9d5d8988f8dd9d4dbdbd8cfd8d3ded8829bdcd0cd86dfd2d9c480eed8dec8cfd8d9988f8ddcd3d9988f8dc8d3ced8dec8cfd8d9988f8ddecfd8d9d4c9988f8d90988f8dcad5dcc99ace988f8dc9d5d8988f8dd9d4dbdbd8cfd8d3ded882988f8d988df9988dfc988f8dd0d2d3c7d293ded2d092dfd1d2da928f8d8c85928c8d928d8892ced8dec8cfd8d990c8d3ced8dec8cfd8d990decfd8d9d4c992
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#264e434a56664b49485c490845494b
+
+- /blog/2018/10/09/bill-splitting:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/product-updates
+    /blog/authors/robin-bilgil
+    /blog/2018/05/08/nearby-friends
+    /blog/2018/04/18/payment-reactions
+    /blog/product-updates
+    /cdn-cgi/l/email-protection#94abb2f5f9e4afe7e1f6fef1f7e0a9d7fcf1f7ffb1a6a4fbe1e0b1a6a4e0fcfde7b1a6a4f6f8fbf3b1a6a4e4fbe7e0aeb1a6a4d6fdf8f8b1a6a4e7e4f8fde0e0fdfaf3b1a6a4f9f5f0f1b1a6a4e7fdf9e4f8f1b2f5f9e4aff6fbf0eda9d6fdf8f8b1a6a4e7e4f8fde0e0fdfaf3b1a6a4f9f5f0f1b1a6a4e7fdf9e4f8f1b1a6a4b1a4d0b1a4d5b1a6a4f9fbfaeefbbaf7fbf9bbf6f8fbf3bba6a4a5acbba5a4bba4adbbf6fdf8f8b9e7e4f8fde0e0fdfaf3bb
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#5c3439302c1c3133322633723f3331
+
+- /blog/2018/10/10/p60-p45-p11d-paye-forms:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/09/26/how-to-read-your-payslip
+    /blog/2018/08/10/earning-money-explained
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#84bba2e5e9f4bff7f1e6eee1e7f0b9c7ece1e7efa1b6b4ebf1f0a1b6b4f0ecedf7a1b6b4e6e8ebe3a1b6b4f4ebf7f0bea1b6b4c5a1b6b4e3f1ede0e1a1b6b4f0eba1b6b4d4c5ddc1a1b6b4e2ebf6e9f7a2e5e9f4bfe6ebe0fdb9c5a1b6b4e3f1ede0e1a1b6b4f0eba1b6b4d4c5ddc1a1b6b4e2ebf6e9f7a1b6b4a1b4c0a1b4c5a1b6b4e9ebeafeebaae7ebe9abe6e8ebe3abb6b4b5bcabb5b4abb5b4abf4b2b4a9f4b0b1a9f4b5b5e0a9f4e5fde1a9e2ebf6e9f7ab
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#1f777a736f5f7270716570317c7072
+
+- /blog/2018/10/11/how-to-check-your-credit-score-report:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/08/08/better-credit-score
+    /blog/2018/08/09/what-is-a-credit-score
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#1b243d7a766b20686e79717e786f2658737e78703e292b746e6f3e292b6f7372683e292b7977747c3e292b6b74686f213e292b53746c3e292b6f743e292b78737e78703e292b62746e693e292b78697e7f726f3e292b687874697e3e292b7a757f3e292b697e6b74696f3d7a766b2079747f622653746c3e292b6f743e292b78737e78703e292b62746e693e292b78697e7f726f3e292b687874697e3e292b7a757f3e292b697e6b74696f3e292b3e2b5f3e2b5a3e292b767475617435787476347977747c34292b2a23342a2b342a2a3473746c366f743678737e78703662746e693678697e7f726f36687874697e36697e6b74696f34
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#d8b0bdb4a898b5b7b6a2b7f6bbb7b5
+
+- /blog/2018/10/12/what-is-a-good-credit-score:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/08/08/better-credit-score
+    /blog/2018/08/09/what-is-a-credit-score
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#dbe4fdbab6abe0a8aeb9b1beb8afe698b3beb8b0fee9ebb4aeaffee9ebafb3b2a8fee9ebb9b7b4bcfee9ebabb4a8afe1fee9eb8cb3baaffee9ebb2a8fee9ebbafee9ebbcb4b4bffee9ebb8a9bebfb2affee9eba8b8b4a9bee4fdbab6abe0b9b4bfa2e68cb3baaffee9ebb2a8fee9ebbafee9ebbcb4b4bffee9ebb8a9bebfb2affee9eba8b8b4a9bee4fee9ebfeeb9ffeeb9afee9ebb6b4b5a1b4f5b8b4b6f4b9b7b4bcf4e9ebeae3f4eaebf4eae9f4acb3baaff6b2a8f6baf6bcb4b4bff6b8a9bebfb2aff6a8b8b4a9bef4
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#046c61687444696b6a7e6b2a676b69
+
+- /blog/2018/10/16/making-monzo-better:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/product-updates
+    /blog/authors/jami-welch
+    /blog/2018/05/22/making-monzo-better
+    /blog/2018/08/22/end-of-the-big-list
+    /blog/product-updates
+    /cdn-cgi/l/email-protection#dde2fbbcb0ade6aea8bfb7b8bea9e09eb5b8beb6f8efedb2a8a9f8efeda9b5b4aef8efedbfb1b2baf8efedadb2aea9e7f8efed90bcb6b4b3baf8efed90b2b3a7b2f8efedbcf8efedbfb8a9a9b8aff8efedbea8afafb8b3a9f8efedbcbebeb2a8b3a9fbbcb0ade6bfb2b9a4e090bcb6b4b3baf8efed90b2b3a7b2f8efedbcf8efedbfb8a9a9b8aff8efedbea8afafb8b3a9f8efedbcbebeb2a8b3a9f8efedf8ed99f8ed9cf8efedb0b2b3a7b2f3beb2b0f2bfb1b2baf2efedece5f2ecedf2ecebf2b0bcb6b4b3baf0b0b2b3a7b2f0bfb8a9a9b8aff2
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#c4aca1a8b484a9abaabeabeaa7aba9
+
+- /blog/2018/10/22/monzo-fscs-protection:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-101
+    /blog/authors/beatrice-borbon
+    /blog/2018/06/07/is-monzo-a-bank
+    /blog/2018/06/22/why-doesnt-monzo-have-branches
+    /blog/monzo-101
+    /cdn-cgi/l/email-protection#87b8a1e6eaf7bcf4f2e5ede2e4f3bac4efe2e4eca2b5b7e8f2f3a2b5b7f3efeef4a2b5b7e5ebe8e0a2b5b7f7e8f4f3bda2b5b7d0efe6f3a2b5b7eef4a2b5b7c1d4c4d4a2b5b7f7f5e8f3e2e4f3eee8e9b8a1e6eaf7bce5e8e3febad0efe6f3a2b5b7eef4a2b5b7c1d4c4d4a2b5b7f7f5e8f3e2e4f3eee8e9b8a2b5b7a2b7c3a2b7c6a2b5b7eae8e9fde8a9e4e8eaa8e5ebe8e0a8b5b7b6bfa8b6b7a8b5b5a8eae8e9fde8aae1f4e4f4aaf7f5e8f3e2e4f3eee8e9a8
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#94fcf1f8e4d4f9fbfaeefbbaf7fbf9
+
+- /blog/2018/10/24/types-of-savings-account:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/08/08/better-credit-score
+    /blog/2018/08/09/what-is-a-credit-score
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#043b226569743f7771666e61677039476c61676f2136346b7170213634706c6d7721363466686b63213634746b77703e213634476c6b6b776d6a632136346661707361616a213634606d62626176616a70213634707d7461772136346b622136347765726d6a63772136346567676b716a7077226569743f666b607d39476c6b6b776d6a632136346661707361616a213634606d62626176616a70213634707d7461772136346b622136347765726d6a63772136346567676b716a7077213634213440213445213634696b6a7e6b2a676b692b66686b632b3634353c2b35342b36302b707d746177296b62297765726d6a6377296567676b716a702b
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#a6cec3cad6e6cbc9c8dcc988c5c9cb
+
+- /blog/2018/10/25/interest-explained:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/10/24/types-of-savings-account
+    /blog/2018/08/09/what-kind-of-credit-should-i-use
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#c4fbe2a5a9b4ffb7b1a6aea1a7b0f987aca1a7afe1f6f4abb1b0e1f6f4b0acadb7e1f6f4a6a8aba3e1f6f4b4abb7b0fee1f6f490aca1e1f6f4a6ada3e1f6f4a3b1ada0a1e1f6f4b0abe1f6f4adaab0a1b6a1b7b0e2a5a9b4ffa6aba0bdf990aca1e1f6f4a6ada3e1f6f4a3b1ada0a1e1f6f4b0abe1f6f4adaab0a1b6a1b7b0e1f6f4e1f480e1f485e1f6f4a9abaabeabeaa7aba9eba6a8aba3ebf6f4f5fcebf5f4ebf6f1ebadaab0a1b6a1b7b0e9a1bcb4a8a5adaaa1a0eb
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#d9b1bcb5a999b4b6b7a3b6f7bab6b4
+
+- /blog/2018/10/30/what-is-inflation:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/10/24/types-of-savings-account
+    /blog/2018/10/25/interest-explained
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#79465f181409420a0c1b131c1a0d443a111c1a125c4b49160c0d5c4b490d11100a5c4b491b15161e5c4b4909160a0d435c4b4930171f15180d101617435c4b4911160e5c4b491a18175c4b49100d5c4b49181f1f1c1a0d5c4b4900160c0b5c4b491416171c00465f181409421b161d004430171f15180d101617435c4b4911160e5c4b491a18175c4b49100d5c4b49181f1f1c1a0d5c4b4900160c0b5c4b491416171c00465c4b495c493d5c49385c4b491416170316571a1614561b15161e564b494841564849564a49560e11180d54100a5410171f15180d10161756
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#036b666f73436e6c6d796c2d606c6e
+
+- /blog/2018/10/31/big-news:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-hq
+    /blog/authors/tristan-thomas
+    /blog/monzo-hq
+    /cdn-cgi/l/email-protection#645b420509145f1711060e01071059270c01070f4156540b1110415654100c0d1741565406080b03415654140b17105e415654260d034156540a0113175e415654050a0a0b110a070d0a034156540b11164156540a01134156540d0a1201171009010a10415654160b110a0045420509145f060b001d59260d034156540a0113175e415654050a0a0b110a070d0a034156540b11164156540a01134156540d0a1201171009010a10415654160b110a0045415654415420415425415654090b0a1e0b4a070b094b06080b034b5654555c4b55544b57554b060d03490a0113174b
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#dfb7bab3af9fb2b0b1a5b0f1bcb0b2
+
+- /blog/2018/11/01/savings-pots:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/product-updates
+    /blog/authors/constantijn-schepens
+    /blog/2018/10/24/types-of-savings-account
+    /blog/2018/10/25/interest-explained
+    /blog/product-updates
+    /cdn-cgi/l/email-protection#86b9a0e7ebf6bdf5f3e4ece3e5f2bbc5eee3e5eda3b4b6e9f3f2a3b4b6f2eeeff5a3b4b6e4eae9e1a3b4b6f6e9f5f2bca3b4b6c1e3f2a3b4b6efe8f2e3f4e3f5f2a3b4b6f6e7efe2a3b4b6e9e8a3b4b6ffe9f3f4a3b4b6f5e7f0efe8e1f5a7a0e7ebf6bde4e9e2ffbbc1e3f2a3b4b6efe8f2e3f4e3f5f2a3b4b6f6e7efe2a3b4b6e9e8a3b4b6ffe9f3f4a3b4b6f5e7f0efe8e1f5a7a3b4b6a3b6c2a3b6c7a3b4b6ebe9e8fce9a8e5e9eba9e4eae9e1a9b4b6b7bea9b7b7a9b6b7a9f5e7f0efe8e1f5abf6e9f2f5a9
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#e78f828b97a78a88899d88c984888a
+
+- /blog/2018/11/05/instant-apple-pay:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/product-updates
+    /blog/authors/james-nicholson
+    /blog/2018/05/17/apple-pay-is-here
+    /blog/product-updates
+    /cdn-cgi/l/email-protection#4c736a2d213c773f392e26292f38710f24292f27697e7c233938697e7c3824253f697e7c2e20232b697e7c3c233f3876697e7c1f382d3e38697e7c3f3c29222825222b697e7c2521212928252d38292035697e7c2d2a38293e697e7c3f252b22393c697e7c3b253824697e7c0d3c3c2029697e7c1c2d356a2d213c772e232835711f382d3e38697e7c3f3c29222825222b697e7c2521212928252d38292035697e7c2d2a38293e697e7c3f252b22393c697e7c3b253824697e7c0d3c3c2029697e7c1c2d35697e7c697c08697c0d697e7c2123223623622f2321632e20232b637e7c7d74637d7d637c796325223f382d2238612d3c3c2029613c2d3563
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#751d10190535181a1b0f1a5b161a18
+
+- /blog/2018/11/06/how-to-name-something:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-hq
+    /documents/naming.pdf
+    /blog/authors/harry-ashbridge
+    /blog/2018/05/16/coral-crew
+    /blog/2018/05/09/sneak-peeks
+    /blog/monzo-hq
+    /cdn-cgi/l/email-protection#e3dcc5828e93d890968189868097dea08b868088c6d1d38c9697c6d1d3978b8a90c6d1d3818f8c84c6d1d3938c9097d9c6d1d3aa8d97918c8796808a8d84c6d1d3978b86c6d1d3ae8c8d998cc6d1d38d828e8a8d84c6d1d3909a9097868ec5828e93d8818c879adeaa8d97918c8796808a8d84c6d1d3978b86c6d1d3ae8c8d998cc6d1d38d828e8a8d84c6d1d3909a9097868ec6d1d3c6d3a7c6d3a2c6d1d38e8c8d998ccd808c8ecc818f8c84ccd1d3d2dbccd2d2ccd3d5cc8b8c94ce978cce8d828e86ce908c8e86978b8a8d84cc
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#5a323f362a1a373534203574393537
+
+- /blog/2018/11/07/making-monzo-roadmap:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/community
+    /blog/authors/richard-cook
+    /blog/2018/08/22/end-of-the-big-list
+    /blog/2018/05/09/sneak-peeks
+    /blog/community
+    /cdn-cgi/l/email-protection#477861262a377c3432252d2224337a042f22242c627577283233627577332f2e34627577252b2820627577372834337d6275770a262c2e29206275770a28293d287d62757701282b2b2830627577262b2829206275772634627577302262757725322e2b23627577266275772526292c61262a377c2528233e7a0a262c2e29206275770a28293d287d62757701282b2b2830627577262b2829206275772634627577302262757725322e2b23627577266275772526292c6275776277036277066275772a28293d286924282a68252b2820687577767f687676687770682a262c2e29206a2a28293d286a352826232a263768
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#2d4548415d6d4042435742034e4240
+
+- /blog/2018/11/07/pensions-explained:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/10/25/interest-explained
+    /blog/2018/10/24/types-of-savings-account
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#48776e292538733b3d2a222d2b3c750b202d2b236d7a78273d3c6d7a783c20213b6d7a782a24272f6d7a7838273b3c726d7a781c202d6d7a782a212f6d7a782f3d212c2d6d7a783c276d7a78382d263b2127263b6e292538732a272c31751c202d6d7a782a212f6d7a782f3d212c2d6d7a783c276d7a78382d263b2127263b6d7a786d780c6d78096d7a782527263227662b2725672a24272f677a78797067797967787f67382d263b2127263b652d3038242921262d2c67
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#d5bdb0b9a595b8babbafbafbb6bab8
+
+- /blog/2018/11/08/monzo-transparency:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/monzo-hq
+    /blog/authors/beatrice-borbon
+    /blog/2017/03/10/transparent-by-default
+    /blog/2017/03/06/transparency-dashboard
+    /blog/monzo-hq
+    /cdn-cgi/l/email-protection#231c05424e5318505641494640571e604b4640480611134c5657061113574b4a50061113414f4c44061113534c505719061113735657574a4d440611135751424d50534251464d405a0611134a4d574c06111353514240574a404605424e5318414c475a1e735657574a4d440611135751424d50534251464d405a0611134a4d574c06111353514240574a40460611130613670613620611134e4c4d594c0d404c4e0c414f4c440c1113121b0c12120c131b0c4e4c4d594c0e5751424d50534251464d405a0c
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#5139343d21113c3e3f2b3e7f323e3c
+
+- /blog/2018/11/09/employee-social-media-guidelines:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/community
+    /blog/authors/richard-cook
+    /blog/2018/05/16/coral-crew
+    /blog/2018/05/09/sneak-peeks
+    /blog/community
+    /cdn-cgi/l/email-protection#95aab3f4f8e5aee6e0f7fff0f6e1a8d6fdf0f6feb0a7a5fae0e1b0a7a5e1fdfce6b0a7a5f7f9faf2b0a7a5e5fae6e1afb0a7a5c6fdf4e7fcfbf2b0a7a5fae0e7b0a7a5e6faf6fcf4f9b0a7a5f8f0f1fcf4b0a7a5f2e0fcf1f0f9fcfbf0e6b3f4f8e5aef7faf1eca8c6fdf4e7fcfbf2b0a7a5fae0e7b0a7a5e6faf6fcf4f9b0a7a5f8f0f1fcf4b0a7a5f2e0fcf1f0f9fcfbf0e6b0a7a5b0a5d1b0a5d4b0a7a5f8fafbeffabbf6faf8baf7f9faf2baa7a5a4adbaa4a4baa5acbaf0f8e5f9faecf0f0b8e6faf6fcf4f9b8f8f0f1fcf4b8f2e0fcf1f0f9fcfbf0e6ba
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#aec6cbc2deeec3c1c0d4c180cdc1c3
+
+- /blog/2018/11/09/national-living-minimum-wage:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/how-money-works
+    /blog/authors/peggy-mcgregor
+    /blog/2018/08/10/earning-money-explained
+    /blog/2018/10/30/what-is-inflation
+    /blog/how-money-works
+    /cdn-cgi/l/email-protection#0c332a6d617c377f796e66696f78314f64696f67293e3c637978293e3c7864657f293e3c6e60636b293e3c7c637f7836293e3c586469293e3c626d786563626d60293e3c61656265617961293e3c7b6d6b6920293e3c786469293e3c626d786563626d60293e3c60657a65626b293e3c7b6d6b69293e3c6d6268293e3c786469293e3c7e696d60293e3c60657a65626b293e3c7b6d6b692a6d617c376e63687531586469293e3c626d786563626d60293e3c61656265617961293e3c7b6d6b6920293e3c786469293e3c626d786563626d60293e3c60657a65626b293e3c7b6d6b69293e3c6d6268293e3c786469293e3c7e696d60293e3c60657a65626b293e3c7b6d6b69293e3c293c48293c4d293e3c6163627663226f6361236e60636b233e3c3d34233d3d233c3523626d786563626d602160657a65626b2161656265617961217b6d6b6923
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#d7bfb2bba797bab8b9adb8f9b4b8ba
+
+- /blog/authors/beatrice-borbon:
+
+- /blog/authors/constantijn-schepens:
+
+- /blog/authors/harry-ashbridge:
+
+- /blog/authors/james-nicholson:
+
+- /blog/authors/jami-welch:
+
+- /blog/authors/peggy-mcgregor:
+
+- /blog/authors/richard-cook:
+
+- /blog/authors/robin-bilgil:
+
+- /blog/authors/team-monzo:
+
+- /blog/authors/tristan-thomas:
+
+- /blog/community:
+
+- /blog/how-money-works:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/2018/11/09/national-living-minimum-wage
+    /blog/2018/11/07/pensions-explained
+    /blog/2018/10/30/what-is-inflation
+    /blog/2018/10/25/interest-explained
+    /blog/2018/10/24/types-of-savings-account
+    /blog/2018/10/12/what-is-a-good-credit-score
+    /blog/2018/10/11/how-to-check-your-credit-score-report
+    /blog/2018/10/10/p60-p45-p11d-paye-forms
+    /blog/2018/10/05/secured-unsecured-credit
+    /blog/2018/10/04/guarantors-how-and-why
+    /blog/2018/09/26/how-to-read-your-payslip
+    /blog/2018/09/21/protect-yourself-against-fraud-identity-theft
+    /blog/how-money-works/2
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#c2aaa7aeb282afadacb8adeca1adaf
+
+- /blog/how-money-works/2:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/2018/09/13/student-loans-northern-ireland
+    /blog/2018/09/11/student-budgeting-tips
+    /blog/2018/09/10/renting-student-accommodation
+    /blog/2018/09/07/open-a-uk-bank-account
+    /blog/2018/09/07/moving-to-the-uk
+    /blog/2018/08/30/manage-your-bills
+    /blog/2018/08/14/sharing-finances
+    /blog/2018/08/10/student-loans-explained
+    /blog/2018/08/10/earning-money-explained
+    /blog/2018/08/09/things-to-consider-before-you-borrow-money
+    /blog/2018/08/09/what-kind-of-credit-should-i-use
+    /blog/2018/08/09/what-is-a-credit-score
+    /blog/how-money-works
+    /blog/how-money-works/3
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#abc3cec7dbebc6c4c5d1c485c8c4c6
+
+- /blog/how-money-works/3:
+
+- /blog/monzo-101:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/2018/10/22/monzo-fscs-protection
+    /blog/2018/09/07/new-to-the-uk
+    /blog/2018/09/05/monzo-bank-statements
+    /blog/2018/09/04/move-your-salary-to-monzo
+    /blog/2018/09/03/is-monzo-free
+    /blog/2018/08/23/seven-day-switch
+    /blog/2018/08/21/budget-with-monzo
+    /blog/2018/08/16/automate-your-finances
+    /blog/2018/08/15/manage-your-bills-with-monzo
+    /blog/2018/06/22/why-doesnt-monzo-have-branches
+    /blog/2018/06/08/adding-money-to-monzo
+    /blog/2018/06/07/is-monzo-a-bank
+    /blog/monzo-101/2
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#670f020b17270a08091d084904080a
+
+- /blog/monzo-101/2:
+
+- /blog/monzo-hq:
+
+- /blog/product-updates:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /blog/2018/11/05/instant-apple-pay
+    /blog/2018/11/01/savings-pots
+    /blog/2018/10/16/making-monzo-better
+    /blog/2018/10/09/bill-splitting
+    /blog/2018/09/25/share-with-us
+    /blog/2018/09/18/ios-app-performance
+    /blog/2018/08/23/schedule-payments-out-of-pots
+    /blog/2018/08/22/end-of-the-big-list
+    /blog/2018/08/22/launching-3d-secure
+    /blog/2018/08/21/savings-update
+    /blog/2018/08/17/pin-lock-update
+    /blog/2018/08/15/split-the-bill
+    /blog/product-updates/2
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#6e060b021e2e0301001401400d0103
+
+- /blog/product-updates/2:
+
+- /careers:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#7e161b120e3e1311100411501d1113
+
+- /cdn-cgi/l/email-protection#036b666f73436e6c6d796c2d606c6e:
+
+- /cdn-cgi/l/email-protection#043b226569743f7771666e61677039476c61676f2136346b7170213634706c6d7721363466686b63213634746b77703e213634476c6b6b776d6a632136346661707361616a213634606d62626176616a70213634707d7461772136346b622136347765726d6a63772136346567676b716a7077226569743f666b607d39476c6b6b776d6a632136346661707361616a213634606d62626176616a70213634707d7461772136346b622136347765726d6a63772136346567676b716a7077213634213440213445213634696b6a7e6b2a676b692b66686b632b3634353c2b35342b36302b707d746177296b62297765726d6a6377296567676b716a702b:
+
+- /cdn-cgi/l/email-protection#046c61687444696b6a7e6b2a676b69:
+
+- /cdn-cgi/l/email-protection#073821666a773c7472656d6264733a446f62646c223537687273223537736f6e74223537656b6860223537776874733d2235374f68702235377368223537667273686a6673622235377e687275223537616e696669646e666b2235376b6e6162223537706e736f2235374a68697d6821666a773c6568637e3a4f68702235377368223537667273686a6673622235377e687275223537616e696669646e666b2235376b6e6162223537706e736f2235374a68697d682235372237432237462235376a68697d682964686a28656b6860283537363f28373f28363128667273686a6673622a7e6872752a616e69666964627428:
+
+- /cdn-cgi/l/email-protection#09616c6579496466677366276a6664:
+
+- /cdn-cgi/l/email-protection#0c332a6d617c377f796e66696f78314f64696f67293e3c637978293e3c7864657f293e3c6e60636b293e3c7c637f7836293e3c586469293e3c626d786563626d60293e3c61656265617961293e3c7b6d6b6920293e3c786469293e3c626d786563626d60293e3c60657a65626b293e3c7b6d6b69293e3c6d6268293e3c786469293e3c7e696d60293e3c60657a65626b293e3c7b6d6b692a6d617c376e63687531586469293e3c626d786563626d60293e3c61656265617961293e3c7b6d6b6920293e3c786469293e3c626d786563626d60293e3c60657a65626b293e3c7b6d6b69293e3c6d6268293e3c786469293e3c7e696d60293e3c60657a65626b293e3c7b6d6b69293e3c293c48293c4d293e3c6163627663226f6361236e60636b233e3c3d34233d3d233c3523626d786563626d602160657a65626b2161656265617961217b6d6b6923:
+
+- /cdn-cgi/l/email-protection#0c6469607c4c6163627663226f6361:
+
+- /cdn-cgi/l/email-protection#0f676a637f4f6260617560216c6062:
+
+- /cdn-cgi/l/email-protection#1179747d61517c7e7f6b7e3f727e7c:
+
+- /cdn-cgi/l/email-protection#1b243d7a766b20686e79717e786f2658737e78703e292b746e6f3e292b6f7372683e292b7977747c3e292b6b74686f213e292b53746c3e292b6f743e292b6b69746f7e786f3e292b62746e69687e777d3e292b7a7c7a7275686f3e292b727f7e756f726f623e292b6f737e7d6f3e292b7a757f3e292b7d697a6e7f3d7a766b2079747f622653746c3e292b6f743e292b6b69746f7e786f3e292b62746e69687e777d3e292b7a7c7a7275686f3e292b727f7e756f726f623e292b6f737e7d6f3e292b7a757f3e292b7d697a6e7f3e292b3e2b5f3e2b5a3e292b767475617435787476347977747c34292b2a23342b2234292a346b69746f7e786f3662746e69687e777d367a7c7a7275686f367d697a6e7f36727f7e756f726f62366f737e7d6f34:
+
+- /cdn-cgi/l/email-protection#1b243d7a766b20686e79717e786f2658737e78703e292b746e6f3e292b6f7372683e292b7977747c3e292b6b74686f213e292b53746c3e292b6f743e292b78737e78703e292b62746e693e292b78697e7f726f3e292b687874697e3e292b7a757f3e292b697e6b74696f3d7a766b2079747f622653746c3e292b6f743e292b78737e78703e292b62746e693e292b78697e7f726f3e292b687874697e3e292b7a757f3e292b697e6b74696f3e292b3e2b5f3e2b5a3e292b767475617435787476347977747c34292b2a23342a2b342a2a3473746c366f743678737e78703662746e693678697e7f726f36687874697e36697e6b74696f34:
+
+- /cdn-cgi/l/email-protection#1b737e776b5b767475617435787476:
+
+- /cdn-cgi/l/email-protection#1f777a736f5f7270716570317c7072:
+
+- /cdn-cgi/l/email-protection#224a474e52624f4d4c584d0c414d4f:
+
+- /cdn-cgi/l/email-protection#231c05424e5318505641494640571e604b4640480611134c5657061113574b4a50061113414f4c44061113534c505719061113735657574a4d440611135751424d50534251464d405a0611134a4d574c06111353514240574a404605424e5318414c475a1e735657574a4d440611135751424d50534251464d405a0611134a4d574c06111353514240574a40460611130613670613620611134e4c4d594c0d404c4e0c414f4c440c1113121b0c12120c131b0c4e4c4d594c0e5751424d50534251464d405a0c:
+
+- /cdn-cgi/l/email-protection#234b464f53634e4c4d594c0d404c4e:
+
+- /cdn-cgi/l/email-protection#264e434a56664b49485c490845494b:
+
+- /cdn-cgi/l/email-protection#274f424b57674a48495d480944484a:
+
+- /cdn-cgi/l/email-protection#28404d4458684547465247064b4745:
+
+- /cdn-cgi/l/email-protection#2d4548415d6d4042435742034e4240:
+
+- /cdn-cgi/l/email-protection#2f474a435f6f4240415540014c4042:
+
+- /cdn-cgi/l/email-protection#3058555c40705d5f5e4a5f1e535f5d:
+
+- /cdn-cgi/l/email-protection#3159545d41715c5e5f4b5e1f525e5c:
+
+- /cdn-cgi/l/email-protection#355d50594575585a5b4f5a1b565a58:
+
+- /cdn-cgi/l/email-protection#38505d5448785557564257165b5755:
+
+- /cdn-cgi/l/email-protection#4028252c30002d2f2e3a2f6e232f2d:
+
+- /cdn-cgi/l/email-protection#4129242d31012c2e2f3b2e6f222e2c:
+
+- /cdn-cgi/l/email-protection#422a272e32022f2d2c382d6c212d2f:
+
+- /cdn-cgi/l/email-protection#442c21283404292b2a3e2b6a272b29:
+
+- /cdn-cgi/l/email-protection#477861262a377c3432252d2224337a042f22242c627577283233627577332f2e34627577252b2820627577372834337d6275770a262c2e29206275770a28293d287d62757701282b2b2830627577262b2829206275772634627577302262757725322e2b23627577266275772526292c61262a377c2528233e7a0a262c2e29206275770a28293d287d62757701282b2b2830627577262b2829206275772634627577302262757725322e2b23627577266275772526292c6275776277036277066275772a28293d286924282a68252b2820687577767f687676687770682a262c2e29206a2a28293d286a352826232a263768:
+
+- /cdn-cgi/l/email-protection#48776e292538733b3d2a222d2b3c750b202d2b236d7a78273d3c6d7a783c20213b6d7a782a24272f6d7a7838273b3c726d7a781c202d6d7a782a212f6d7a782f3d212c2d6d7a783c276d7a78382d263b2127263b6e292538732a272c31751c202d6d7a782a212f6d7a782f3d212c2d6d7a783c276d7a78382d263b2127263b6d7a786d780c6d78096d7a782527263227662b2725672a24272f677a78797067797967787f67382d263b2127263b652d3038242921262d2c67:
+
+- /cdn-cgi/l/email-protection#49766f282439723a3c2b232c2a3d740a212c2a226c7b79263c3d6c7b793d21203a6c7b792b25262e6c7b7939263a3d736c7b797865797979657979796c7b79392c2639252c6c7b79283b2c6c7b7927263e6c7b793c3a20272e6c7b790426273326686f282439722b262d30747865797979657979796c7b79392c2639252c6c7b79283b2c6c7b7927263e6c7b793c3a20272e6c7b790426273326686c7b796c790d6c79086c7b792426273326672a2624662b25262e667b797871667970667b7d6626272c6424202525202627642426273326642a3c3a3d26242c3b3a66:
+
+- /cdn-cgi/l/email-protection#4c736a2d213c773f392e26292f38710f24292f27697e7c233938697e7c3824253f697e7c2e20232b697e7c3c233f3876697e7c1f382d3e38697e7c3f3c29222825222b697e7c2521212928252d38292035697e7c2d2a38293e697e7c3f252b22393c697e7c3b253824697e7c0d3c3c2029697e7c1c2d356a2d213c772e232835711f382d3e38697e7c3f3c29222825222b697e7c2521212928252d38292035697e7c2d2a38293e697e7c3f252b22393c697e7c3b253824697e7c0d3c3c2029697e7c1c2d35697e7c697c08697c0d697e7c2123223623622f2321632e20232b637e7c7d74637d7d637c796325223f382d2238612d3c3c2029613c2d3563:
+
+- /cdn-cgi/l/email-protection#4f272a233f0f2220213520612c2022:
+
+- /cdn-cgi/l/email-protection#5139343d21113c3e3f2b3e7f323e3c:
+
+- /cdn-cgi/l/email-protection#523a373e22123f3d3c283d7c313d3f:
+
+- /cdn-cgi/l/email-protection#5a323f362a1a373534203574393537:
+
+- /cdn-cgi/l/email-protection#5c3439302c1c3133322633723f3331:
+
+- /cdn-cgi/l/email-protection#5d3538312d1d3032332732733e3230:
+
+- /cdn-cgi/l/email-protection#5f373a332f1f3230312530713c3032:
+
+- /cdn-cgi/l/email-protection#6008050c10200d0f0e1a0f4e030f0d:
+
+- /cdn-cgi/l/email-protection#6109040d11210c0e0f1b0e4f020e0c:
+
+- /cdn-cgi/l/email-protection#645b420509145f1711060e01071059270c01070f4156540b1110415654100c0d1741565406080b03415654140b17105e415654260d034156540a0113175e415654050a0a0b110a070d0a034156540b11164156540a01134156540d0a1201171009010a10415654160b110a0045420509145f060b001d59260d034156540a0113175e415654050a0a0b110a070d0a034156540b11164156540a01134156540d0a1201171009010a10415654160b110a0045415654415420415425415654090b0a1e0b4a070b094b06080b034b5654555c4b55544b57554b060d03490a0113174b:
+
+- /cdn-cgi/l/email-protection#670f020b17270a08091d084904080a:
+
+- /cdn-cgi/l/email-protection#6a020f061a2a070504100544090507:
+
+- /cdn-cgi/l/email-protection#6e060b021e2e0301001401400d0103:
+
+- /cdn-cgi/l/email-protection#6f070a031f2f0200011500410c0002:
+
+- /cdn-cgi/l/email-protection#7119141d01311c1e1f0b1e5f121e1c:
+
+- /cdn-cgi/l/email-protection#723b312632140111015c1d00155c0719:
+
+- /cdn-cgi/l/email-protection#751d10190535181a1b0f1a5b161a18:
+
+- /cdn-cgi/l/email-protection#77151205121601121a12190304371a18190d185914181a:
+
+- /cdn-cgi/l/email-protection#79111c1509391416170316571a1614:
+
+- /cdn-cgi/l/email-protection#79465f181409420a0c1b131c1a0d443a111c1a125c4b49160c0d5c4b490d11100a5c4b491b15161e5c4b4909160a0d435c4b4930171f15180d101617435c4b4911160e5c4b491a18175c4b49100d5c4b49181f1f1c1a0d5c4b4900160c0b5c4b491416171c00465f181409421b161d004430171f15180d101617435c4b4911160e5c4b491a18175c4b49100d5c4b49181f1f1c1a0d5c4b4900160c0b5c4b491416171c00465c4b495c493d5c49385c4b491416170316571a1614561b15161e564b494841564849564a49560e11180d54100a5410171f15180d10161756:
+
+- /cdn-cgi/l/email-protection#7c1419100c3c1113120613521f1311:
+
+- /cdn-cgi/l/email-protection#7d425b1c100d460e081f17181e09403e15181e16584f4d120809584f4d0915140e584f4d1f11121a584f4d0d120e0947584f4d33180a584f4d0912584f4d091518584f4d283642584f4d320d1813584f4d1c584f4d1f1c1316584f4d1c1e1e12081309584f4d1413584f4d1014130809180e584f4d0a140915584f4d30121307125b1c100d461f1219044033180a584f4d0912584f4d091518584f4d283642584f4d320d1813584f4d1c584f4d1f1c1316584f4d1c1e1e12081309584f4d1413584f4d1014130809180e584f4d0a140915584f4d3012130712584f4d584d39584d3c584f4d1012130712531e1210521f11121a524f4d4c45524d44524d4a5213180a5009125009151850081652:
+
+- /cdn-cgi/l/email-protection#7e161b120e3e1311100411501d1113:
+
+- /cdn-cgi/l/email-protection#82eae7eef2c2efedecf8edace1edef:
+
+- /cdn-cgi/l/email-protection#84bba2e5e9f4bff7f1e6eee1e7f0b9c7ece1e7efa1b6b4ebf1f0a1b6b4f0ecedf7a1b6b4e6e8ebe3a1b6b4f4ebf7f0bea1b6b4c5a1b6b4e3f1ede0e1a1b6b4f0eba1b6b4d4c5ddc1a1b6b4e2ebf6e9f7a2e5e9f4bfe6ebe0fdb9c5a1b6b4e3f1ede0e1a1b6b4f0eba1b6b4d4c5ddc1a1b6b4e2ebf6e9f7a1b6b4a1b4c0a1b4c5a1b6b4e9ebeafeebaae7ebe9abe6e8ebe3abb6b4b5bcabb5b4abb5b4abf4b2b4a9f4b0b1a9f4b5b5e0a9f4e5fde1a9e2ebf6e9f7ab:
+
+- /cdn-cgi/l/email-protection#86b9a0e7ebf6bdf5f3e4ece3e5f2bbc5eee3e5eda3b4b6e9f3f2a3b4b6f2eeeff5a3b4b6e4eae9e1a3b4b6f6e9f5f2bca3b4b6c1e3f2a3b4b6efe8f2e3f4e3f5f2a3b4b6f6e7efe2a3b4b6e9e8a3b4b6ffe9f3f4a3b4b6f5e7f0efe8e1f5a7a0e7ebf6bde4e9e2ffbbc1e3f2a3b4b6efe8f2e3f4e3f5f2a3b4b6f6e7efe2a3b4b6e9e8a3b4b6ffe9f3f4a3b4b6f5e7f0efe8e1f5a7a3b4b6a3b6c2a3b6c7a3b4b6ebe9e8fce9a8e5e9eba9e4eae9e1a9b4b6b7bea9b7b7a9b6b7a9f5e7f0efe8e1f5abf6e9f2f5a9:
+
+- /cdn-cgi/l/email-protection#87b8a1e6eaf7bcf4f2e5ede2e4f3bac4efe2e4eca2b5b7e8f2f3a2b5b7f3efeef4a2b5b7e5ebe8e0a2b5b7f7e8f4f3bda2b5b7d0efe6f3a2b5b7eef4a2b5b7c1d4c4d4a2b5b7f7f5e8f3e2e4f3eee8e9b8a1e6eaf7bce5e8e3febad0efe6f3a2b5b7eef4a2b5b7c1d4c4d4a2b5b7f7f5e8f3e2e4f3eee8e9b8a2b5b7a2b7c3a2b7c6a2b5b7eae8e9fde8a9e4e8eaa8e5ebe8e0a8b5b7b6bfa8b6b7a8b5b5a8eae8e9fde8aae1f4e4f4aaf7f5e8f3e2e4f3eee8e9a8:
+
+- /cdn-cgi/l/email-protection#87efe2ebf7c7eae8e9fde8a9e4e8ea:
+
+- /cdn-cgi/l/email-protection#88e0ede4f8c8e5e7e6f2e7a6ebe7e5:
+
+- /cdn-cgi/l/email-protection#93fbf6ffe3d3fefcfde9fcbdf0fcfe:
+
+- /cdn-cgi/l/email-protection#94abb2f5f9e4afe7e1f6fef1f7e0a9d7fcf1f7ffb1a6a4fbe1e0b1a6a4e0fcfde7b1a6a4f6f8fbf3b1a6a4e4fbe7e0aeb1a6a4d6fdf8f8b1a6a4e7e4f8fde0e0fdfaf3b1a6a4f9f5f0f1b1a6a4e7fdf9e4f8f1b2f5f9e4aff6fbf0eda9d6fdf8f8b1a6a4e7e4f8fde0e0fdfaf3b1a6a4f9f5f0f1b1a6a4e7fdf9e4f8f1b1a6a4b1a4d0b1a4d5b1a6a4f9fbfaeefbbaf7fbf9bbf6f8fbf3bba6a4a5acbba5a4bba4adbbf6fdf8f8b9e7e4f8fde0e0fdfaf3bb:
+
+- /cdn-cgi/l/email-protection#94fcf1f8e4d4f9fbfaeefbbaf7fbf9:
+
+- /cdn-cgi/l/email-protection#95aab3f4f8e5aee6e0f7fff0f6e1a8d6fdf0f6feb0a7a5fae0e1b0a7a5e1fdfce6b0a7a5f7f9faf2b0a7a5e5fae6e1afb0a7a5c6fdf4e7fcfbf2b0a7a5fae0e7b0a7a5e6faf6fcf4f9b0a7a5f8f0f1fcf4b0a7a5f2e0fcf1f0f9fcfbf0e6b3f4f8e5aef7faf1eca8c6fdf4e7fcfbf2b0a7a5fae0e7b0a7a5e6faf6fcf4f9b0a7a5f8f0f1fcf4b0a7a5f2e0fcf1f0f9fcfbf0e6b0a7a5b0a5d1b0a5d4b0a7a5f8fafbeffabbf6faf8baf7f9faf2baa7a5a4adbaa4a4baa5acbaf0f8e5f9faecf0f0b8e6faf6fcf4f9b8f8f0f1fcf4b8f2e0fcf1f0f9fcfbf0e6ba:
+
+- /cdn-cgi/l/email-protection#98f0fdf4e8d8f5f7f6e2f7b6fbf7f5:
+
+- /cdn-cgi/l/email-protection#99f1fcf5e9d9f4f6f7e3f6b7faf6f4:
+
+- /cdn-cgi/l/email-protection#a09f86c1cdd09bd3d5c2cac5c3d49de3c8c5c3cb859290cfd5d4859290d4c8c9d3859290c2cccfc7859290d0cfd3d49a859290e8cfd7859290d4cf859290d2c5c1c4859290d9cfd5d2859290d0c1d9d3ccc9d086c1cdd09bc2cfc4d99de8cfd7859290d4cf859290d2c5c1c4859290d9cfd5d2859290d0c1d9d3ccc9d08592908590e48590e1859290cdcfcedacf8ec3cfcd8fc2cccfc78f929091988f90998f92968fc8cfd78dd4cf8dd2c5c1c48dd9cfd5d28dd0c1d9d3ccc9d08f:
+
+- /cdn-cgi/l/email-protection#a0c8c5ccd0e0cdcfcedacf8ec3cfcd:
+
+- /cdn-cgi/l/email-protection#a1e8e2f5e1c7d2c2d28fced3c68fd4ca:
+
+- /cdn-cgi/l/email-protection#a2cac7ced2e2cfcdccd8cd8cc1cdcf:
+
+- /cdn-cgi/l/email-protection#a3cbc6cfd3e3cecccdd9cc8dc0ccce:
+
+- /cdn-cgi/l/email-protection#a5cdc0c9d5e5c8cacbdfca8bc6cac8:
+
+- /cdn-cgi/l/email-protection#a6cec3cad6e6cbc9c8dcc988c5c9cb:
+
+- /cdn-cgi/l/email-protection#a7cfc2cbd7e7cac8c9ddc889c4c8ca:
+
+- /cdn-cgi/l/email-protection#abc3cec7dbebc6c4c5d1c485c8c4c6:
+
+- /cdn-cgi/l/email-protection#adc5c8c1ddedc0c2c3d7c283cec2c0:
+
+- /cdn-cgi/l/email-protection#aec6cbc2deeec3c1c0d4c180cdc1c3:
+
+- /cdn-cgi/l/email-protection#b1d9d4ddc1f1dcdedfcbde9fd2dedc:
+
+- /cdn-cgi/l/email-protection#b9869fd8d4c982caccdbd3dcdacd84fad1dcdad29c8b89d6cccd9c8b89cdd1d0ca9c8b89dbd5d6de9c8b89c9d6cacd839c8b89feccd8cbd8d7cdd6cbca839c8b89d1d6ce9c8b89d8d7dd9c8b89ced1dcd79c8b89cdd69c8b89cccadc9c8b89cdd1dcd49fd8d4c982dbd6ddc084feccd8cbd8d7cdd6cbca839c8b89d1d6ce9c8b89d8d7dd9c8b89ced1dcd79c8b89cdd69c8b89cccadc9c8b89cdd1dcd49c8b899c89fd9c89f89c8b89d4d6d7c3d697dad6d496dbd5d6de968b89888196888996898d96deccd8cbd8d7cdd6cbca94d1d6ce94d8d7dd94ced1c096:
+
+- /cdn-cgi/l/email-protection#b9d1dcd5c9f9d4d6d7c3d697dad6d4:
+
+- /cdn-cgi/l/email-protection#bbd3ded7cbfbd6d4d5c1d495d8d4d6:
+
+- /cdn-cgi/l/email-protection#bd829bdcd0cd86cec8dfd7d8dec980fed5d8ded6988f8dd2c8c9988f8dc9d5d4ce988f8ddfd1d2da988f8dcdd2cec987988f8deed8dec8cfd8d9988f8ddcd3d9988f8dc8d3ced8dec8cfd8d9988f8ddecfd8d9d4c9988f8d90988f8dcad5dcc99ace988f8dc9d5d8988f8dd9d4dbdbd8cfd8d3ded8829bdcd0cd86dfd2d9c480eed8dec8cfd8d9988f8ddcd3d9988f8dc8d3ced8dec8cfd8d9988f8ddecfd8d9d4c9988f8d90988f8dcad5dcc99ace988f8dc9d5d8988f8dd9d4dbdbd8cfd8d3ded882988f8d988df9988dfc988f8dd0d2d3c7d293ded2d092dfd1d2da928f8d8c85928c8d928d8892ced8dec8cfd8d990c8d3ced8dec8cfd8d990decfd8d9d4c992:
+
+- /cdn-cgi/l/email-protection#c2aaa7aeb282afadacb8adeca1adaf:
+
+- /cdn-cgi/l/email-protection#c2fde4a3afb2f9b1b7a0a8a7a1b6ff81aaa7a1a9e7f0f2adb7b6e7f0f2b6aaabb1e7f0f2a0aeada5e7f0f2b2adb1b6f8e7f0f28aadb5e7f0f2b6ade7f0f2a5a7b6e7f0f2bbadb7b0e7f0f2b1a3aea3b0bbe7f0f2b2a3aba6e7f0f2abacb6ade7f0f2bbadb7b0e7f0f28fadacb8ade7f0f2a3a1a1adb7acb6e4a3afb2f9a0ada6bbff8aadb5e7f0f2b6ade7f0f2a5a7b6e7f0f2bbadb7b0e7f0f2b1a3aea3b0bbe7f0f2b2a3aba6e7f0f2abacb6ade7f0f2bbadb7b0e7f0f28fadacb8ade7f0f2a3a1a1adb7acb6e7f0f2e7f286e7f283e7f0f2afadacb8adeca1adafeda0aeada5edf0f2f3faedf2fbedf2f6edafadb4a7efbbadb7b0efb1a3aea3b0bbefb6adefafadacb8aded:
+
+- /cdn-cgi/l/email-protection#c4aca1a8b484a9abaabeabeaa7aba9:
+
+- /cdn-cgi/l/email-protection#c4fbe2a5a9b4ffb7b1a6aea1a7b0f987aca1a7afe1f6f4abb1b0e1f6f4b0acadb7e1f6f4a6a8aba3e1f6f4b4abb7b0fee1f6f490aca1e1f6f4a6ada3e1f6f4a3b1ada0a1e1f6f4b0abe1f6f4adaab0a1b6a1b7b0e2a5a9b4ffa6aba0bdf990aca1e1f6f4a6ada3e1f6f4a3b1ada0a1e1f6f4b0abe1f6f4adaab0a1b6a1b7b0e1f6f4e1f480e1f485e1f6f4a9abaabeabeaa7aba9eba6a8aba3ebf6f4f5fcebf5f4ebf6f1ebadaab0a1b6a1b7b0e9a1bcb4a8a5adaaa1a0eb:
+
+- /cdn-cgi/l/email-protection#c8aaadbaada9beada5ada6bcbb88a5a7a6b2a7e6aba7a5:
+
+- /cdn-cgi/l/email-protection#caa2afa6ba8aa7a5a4b0a5e4a9a5a7:
+
+- /cdn-cgi/l/email-protection#cba3aea7bb8ba6a4a5b1a4e5a8a4a6:
+
+- /cdn-cgi/l/email-protection#cca4a9a0bc8ca1a3a2b6a3e2afa3a1:
+
+- /cdn-cgi/l/email-protection#d5bdb0b9a595b8babbafbafbb6bab8:
+
+- /cdn-cgi/l/email-protection#d6beb3baa696bbb9b8acb9f8b5b9bb:
+
+- /cdn-cgi/l/email-protection#d7bfb2bba797bab8b9adb8f9b4b8ba:
+
+- /cdn-cgi/l/email-protection#d8b0bdb4a898b5b7b6a2b7f6bbb7b5:
+
+- /cdn-cgi/l/email-protection#d9b1bcb5a999b4b6b7a3b6f7bab6b4:
+
+- /cdn-cgi/l/email-protection#dbe4fdbab6abe0a8aeb9b1beb8afe698b3beb8b0fee9ebb4aeaffee9ebafb3b2a8fee9ebb9b7b4bcfee9ebabb4a8afe1fee9eb8cb3baaffee9ebb2a8fee9ebbafee9ebbcb4b4bffee9ebb8a9bebfb2affee9eba8b8b4a9bee4fdbab6abe0b9b4bfa2e68cb3baaffee9ebb2a8fee9ebbafee9ebbcb4b4bffee9ebb8a9bebfb2affee9eba8b8b4a9bee4fee9ebfeeb9ffeeb9afee9ebb6b4b5a1b4f5b8b4b6f4b9b7b4bcf4e9ebeae3f4eaebf4eae9f4acb3baaff6b2a8f6baf6bcb4b4bff6b8a9bebfb2aff6a8b8b4a9bef4:
+
+- /cdn-cgi/l/email-protection#dcb4b9b0ac9cb1b3b2a6b3f2bfb3b1:
+
+- /cdn-cgi/l/email-protection#ddb5b8b1ad9db0b2b3a7b2f3beb2b0:
+
+- /cdn-cgi/l/email-protection#dde2fbbcb0ade6aea8bfb7b8bea9e09eb5b8beb6f8efedb2a8a9f8efeda9b5b4aef8efedbfb1b2baf8efedadb2aea9e7f8efed90bcb6b4b3baf8efed90b2b3a7b2f8efedbcf8efedbfb8a9a9b8aff8efedbea8afafb8b3a9f8efedbcbebeb2a8b3a9fbbcb0ade6bfb2b9a4e090bcb6b4b3baf8efed90b2b3a7b2f8efedbcf8efedbfb8a9a9b8aff8efedbea8afafb8b3a9f8efedbcbebeb2a8b3a9f8efedf8ed99f8ed9cf8efedb0b2b3a7b2f3beb2b0f2bfb1b2baf2efedece5f2ecedf2ecebf2b0bcb6b4b3baf0b0b2b3a7b2f0bfb8a9a9b8aff2:
+
+- /cdn-cgi/l/email-protection#dfb7bab3af9fb2b0b1a5b0f1bcb0b2:
+
+- /cdn-cgi/l/email-protection#e088858c90a08d8f8e9a8fce838f8d:
+
+- /cdn-cgi/l/email-protection#e3dcc5828e93d890968189868097dea08b868088c6d1d38c9697c6d1d3978b8a90c6d1d3818f8c84c6d1d3938c9097d9c6d1d3aa8d97918c8796808a8d84c6d1d3978b86c6d1d3ae8c8d998cc6d1d38d828e8a8d84c6d1d3909a9097868ec5828e93d8818c879adeaa8d97918c8796808a8d84c6d1d3978b86c6d1d3ae8c8d998cc6d1d38d828e8a8d84c6d1d3909a9097868ec6d1d3c6d3a7c6d3a2c6d1d38e8c8d998ccd808c8ecc818f8c84ccd1d3d2dbccd2d2ccd3d5cc8b8c94ce978cce8d828e86ce908c8e86978b8a8d84cc:
+
+- /cdn-cgi/l/email-protection#e58d808995a5888a8b9f8acb868a88:
+
+- /cdn-cgi/l/email-protection#e78f828b97a78a88899d88c984888a:
+
+- /cdn-cgi/l/email-protection#e9999b8c9a9aa98486879386c78a8684:
+
+- /cdn-cgi/l/email-protection#e9d6cf888499d29a9c8b838c8a9dd4aa818c8a82ccdbd9869c9dccdbd99d81809accdbd98b85868eccdbd999869a9dd3ccdbd9a1869eccdbd99d86ccdbd98e8c9dccdbd988ccdbd98b888782ccdbd99a9d889d8c848c879dccdbd98f9b8684ccdbd9a486879386cf888499d28b868d90d4a1869eccdbd99d86ccdbd98e8c9dccdbd988ccdbd98b888782ccdbd99a9d889d8c848c879dccdbd98f9b8684ccdbd9a486879386ccdbd9ccd9adccd9a8ccdbd98486879386c78a8684c68b85868ec6dbd9d8d1c6d9d0c6d9dcc68486879386c48b888782c49a9d889d8c848c879d9ac6:
+
+- /cdn-cgi/l/email-protection#eb838e879bab8684859184c5888486:
+
+- /cdn-cgi/l/email-protection#ed858c9f9f948c9e858f9f84898a88ad8082839782c38e8280:
+
+- /cdn-cgi/l/email-protection#f49c919884b4999b9a8e9bda979b99:
+
+- /cdn-cgi/l/email-protection#f59d909985b5989a9b8f9adb969a98:
+
+- /cdn-cgi/l/email-protection#fa929f968aba9795948095d4999597:
+
+- /cdn-cgi/l/email-protection#fd9598918dbd9092938792d39e9290:
+
+- /community:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#1b737e776b5b767475617435787476
+
+- /cookies:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#09616c6579496466677366276a6664
+
+- /documents/naming.pdf:
+
+- /download:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#4028252c30002d2f2e3a2f6e232f2d
+
+- /ethics:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#036b666f73436e6c6d796c2d606c6e
+
+- /faq:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /-play-store-redirect
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#fa929f968aba9795948095d4999597
+    /cdn-cgi/l/email-protection#c8aaadbaada9beada5ada6bcbb88a5a7a6b2a7e6aba7a5
+    /cdn-cgi/l/email-protection#77151205121601121a12190304371a18190d185914181a
+    /cdn-cgi/l/email-protection#a0c8c5ccd0e0cdcfcedacf8ec3cfcd
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#99f1fcf5e9d9f4f6f7e3f6b7faf6f4
+
+- /features/apple-pay:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#a7cfc2cbd7e7cac8c9ddc889c4c8ca
+
+- /features/overdrafts:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /download
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#355d50594575585a5b4f5a1b565a58
+
+- /features/switch:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /-play-store-redirect
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#fd9598918dbd9092938792d39e9290
+
+- /features/travel:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#6109040d11210c0e0f1b0e4f020e0c
+
+- /legal/cookie-policy:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#7c1419100c3c1113120613521f1311
+
+- /legal/fee-information:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/fee-information/fee-glossary.pdf
+    /legal/fee-information/fee-information.pdf
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#234b464f53634e4c4d594c0d404c4e
+
+- /legal/fee-information/fee-glossary.pdf:
+
+- /legal/fee-information/fee-information.pdf:
+
+- /legal/fscs-information:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/fscs-information
+    /legal/fscs-information/version-1-1
+    /cdn-cgi/l/email-protection#264e434a56664b49485c490845494b
+    /cdn-cgi/l/email-protection#a1e8e2f5e1c7d2c2d28fced3c68fd4ca
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#5d3538312d1d3032332732733e3230
+
+- /legal/fscs-information/version-1-1:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/fscs-information
+    /legal/fscs-information/version-1-1
+    /cdn-cgi/l/email-protection#f49c919884b4999b9a8e9bda979b99
+    /cdn-cgi/l/email-protection#723b312632140111015c1d00155c0719
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#f59d909985b5989a9b8f9adb969a98
+
+- /legal/privacy-policy:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/privacy-policy
+    /legal/privacy-policy/version-1-3
+    /legal/privacy-policy/version-1-2
+    /legal/privacy-policy/version-1-1
+    /cdn-cgi/l/email-protection#5f373a332f1f3230312530713c3032
+    /cookies
+    /cdn-cgi/l/email-protection#aec6cbc2deeec3c1c0d4c180cdc1c3
+    /cdn-cgi/l/email-protection#38505d5448785557564257165b5755
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#6a020f061a2a070504100544090507
+
+- /legal/privacy-policy/version-1-1:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/privacy-policy
+    /legal/privacy-policy/version-1-3
+    /legal/privacy-policy/version-1-2
+    /legal/privacy-policy/version-1-1
+    /cdn-cgi/l/email-protection#82eae7eef2c2efedecf8edace1edef
+    /cdn-cgi/l/email-protection#4f272a233f0f2220213520612c2022
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#0f676a637f4f6260617560216c6062
+
+- /legal/privacy-policy/version-1-2:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/privacy-policy
+    /legal/privacy-policy/version-1-3
+    /legal/privacy-policy/version-1-2
+    /legal/privacy-policy/version-1-1
+    /cdn-cgi/l/email-protection#1179747d61517c7e7f6b7e3f727e7c
+    /cookies
+    /cdn-cgi/l/email-protection#79111c1509391416170316571a1614
+    /cdn-cgi/l/email-protection#a0c8c5ccd0e0cdcfcedacf8ec3cfcd
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#adc5c8c1ddedc0c2c3d7c283cec2c0
+
+- /legal/privacy-policy/version-1-3:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/privacy-policy
+    /legal/privacy-policy/version-1-3
+    /legal/privacy-policy/version-1-2
+    /legal/privacy-policy/version-1-1
+    /cdn-cgi/l/email-protection#442c21283404292b2a3e2b6a272b29
+    /cookies
+    /cdn-cgi/l/email-protection#4129242d31012c2e2f3b2e6f222e2c
+    /cdn-cgi/l/email-protection#ddb5b8b1ad9db0b2b3a7b2f3beb2b0
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#abc3cec7dbebc6c4c5d1c485c8c4c6
+
+- /legal/terms-and-conditions:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/terms-and-conditions
+    /legal/terms-and-conditions/version-1-5
+    /legal/terms-and-conditions/version-1-4
+    /legal/terms-and-conditions/version-1-3
+    /legal/terms-and-conditions/version-1-2
+    /legal/terms-and-conditions/version-1-1
+    /privacy-bank
+    /cdn-cgi/l/email-protection#88e0ede4f8c8e5e7e6f2e7a6ebe7e5
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#c2aaa7aeb282afadacb8adeca1adaf
+
+- /legal/terms-and-conditions/version-1-1:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/terms-and-conditions
+    /legal/terms-and-conditions/version-1-5
+    /legal/terms-and-conditions/version-1-4
+    /legal/terms-and-conditions/version-1-3
+    /legal/terms-and-conditions/version-1-2
+    /legal/terms-and-conditions/version-1-1
+    /privacy-bank
+    /cdn-cgi/l/email-protection#a3cbc6cfd3e3cecccdd9cc8dc0ccce
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#87efe2ebf7c7eae8e9fde8a9e4e8ea
+
+- /legal/terms-and-conditions/version-1-2:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/terms-and-conditions
+    /legal/terms-and-conditions/version-1-5
+    /legal/terms-and-conditions/version-1-4
+    /legal/terms-and-conditions/version-1-3
+    /legal/terms-and-conditions/version-1-2
+    /legal/terms-and-conditions/version-1-1
+    /privacy-bank
+    /cdn-cgi/l/email-protection#b1d9d4ddc1f1dcdedfcbde9fd2dedc
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#422a272e32022f2d2c382d6c212d2f
+
+- /legal/terms-and-conditions/version-1-3:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/terms-and-conditions
+    /legal/terms-and-conditions/version-1-5
+    /legal/terms-and-conditions/version-1-4
+    /legal/terms-and-conditions/version-1-3
+    /legal/terms-and-conditions/version-1-2
+    /legal/terms-and-conditions/version-1-1
+    /privacy-bank
+    /cdn-cgi/l/email-protection#98f0fdf4e8d8f5f7f6e2f7b6fbf7f5
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#cba3aea7bb8ba6a4a5b1a4e5a8a4a6
+
+- /legal/terms-and-conditions/version-1-4:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/terms-and-conditions
+    /legal/terms-and-conditions/version-1-5
+    /legal/terms-and-conditions/version-1-4
+    /legal/terms-and-conditions/version-1-3
+    /legal/terms-and-conditions/version-1-2
+    /legal/terms-and-conditions/version-1-1
+    /privacy-bank
+    /cdn-cgi/l/email-protection#6008050c10200d0f0e1a0f4e030f0d
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#b9d1dcd5c9f9d4d6d7c3d697dad6d4
+
+- /legal/terms-and-conditions/version-1-5:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/terms-and-conditions
+    /legal/terms-and-conditions/version-1-5
+    /legal/terms-and-conditions/version-1-4
+    /legal/terms-and-conditions/version-1-3
+    /legal/terms-and-conditions/version-1-2
+    /legal/terms-and-conditions/version-1-1
+    /privacy-bank
+    /cdn-cgi/l/email-protection#93fbf6ffe3d3fefcfde9fcbdf0fcfe
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#a5cdc0c9d5e5c8cacbdfca8bc6cac8
+
+- /press:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /cdn-cgi/l/email-protection#e9999b8c9a9aa98486879386c78a8684
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#523a373e22123f3d3c283d7c313d3f
+
+- /privacy:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/privacy-policy
+    /legal/privacy-policy/version-1-3
+    /legal/privacy-policy/version-1-2
+    /legal/privacy-policy/version-1-1
+    /cdn-cgi/l/email-protection#cca4a9a0bc8ca1a3a2b6a3e2afa3a1
+    /cookies
+    /cdn-cgi/l/email-protection#d5bdb0b9a595b8babbafbafbb6bab8
+    /cdn-cgi/l/email-protection#eb838e879bab8684859184c5888486
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#d7bfb2bba797bab8b9adb8f9b4b8ba
+
+- /privacy-bank:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /legal/fee-information
+    /legal/privacy-policy
+    /legal/privacy-policy/version-1-3
+    /legal/privacy-policy/version-1-2
+    /legal/privacy-policy/version-1-1
+    /cdn-cgi/l/email-protection#3159545d41715c5e5f4b5e1f525e5c
+    /cookies
+    /cdn-cgi/l/email-protection#274f424b57674a48495d480944484a
+    /cdn-cgi/l/email-protection#6f070a031f2f0200011500410c0002
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#e088858c90a08d8f8e9a8fce838f8d
+
+- /static/docs/annual-report-2017.pdf:
+
+- /static/docs/annual-report-2018.pdf:
+
+- /tone-of-voice:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /cdn-cgi/l/email-protection#ed858c9f9f948c9e858f9f84898a88ad8082839782c38e8280
+    /privacy
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#caa2afa6ba8aa7a5a4b0a5e4a9a5a7
+
+- /transparency:
+    /
+    /about
+    /blog
+    /community
+    /faq
+    /download
+    /community
+    /community
+    /ethics
+    /ethics
+    /annual-report/2018
+    /annual-report/2017
+    /annual-report/2018
+    /annual-report/2017
+    /cdn-cgi/l/email-protection#7e161b120e3e1311100411501d1113
+    /cdn-cgi/l/email-protection#274f424b57674a48495d480944484a
+    /about
+    /blog
+    /press
+    /careers
+    /community
+    /transparency
+    /blog/how-money-works
+    /tone-of-voice
+    /faq
+    /legal/terms-and-conditions
+    /legal/fscs-information
+    /legal/privacy-policy
+    /legal/cookie-policy
+    /-play-store-redirect
+    /cdn-cgi/l/email-protection#bbd3ded7cbfbd6d4d5c1d495d8d4d6
+
+-- END --
