@@ -1,7 +1,6 @@
 package urlPrinter
 
 import (
-  // "fmt"
   "sort"
 )
 

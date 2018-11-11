@@ -20,6 +20,5 @@ func check(e error) {
 func GetBody(client HttpClient, url string) (httpBody io.ReadCloser) {
   response, err := client.Get(url)
   check(err)
-  // defer response.Body.Close()
   return response.Body
 }

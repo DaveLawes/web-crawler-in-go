@@ -91,5 +91,3 @@ func TestExtract_isValid_pageReference(t *testing.T) {
     t.Errorf("Page references not correctly identified, got: %v, want %v", result, expectation)
   }
 }
-
-// also check if url exists for url - '/'
