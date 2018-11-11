@@ -26,16 +26,17 @@ func TestUrlPrinter_Print(t *testing.T) {
   }
 }
 
-func TestUrlPrinter_alphabeticalOrder(t *testing.T) {
+func TestUrlPrinter_order(t *testing.T) {
   urlMap := make(map[string][]string)
-  urlMap["http://example.com"] = []string{ "/test1", "/test2"}
-  urlMap["/test1"] = []string{ "/test3" }
-  urlMap["/test2"] = []string{}
+  seed := "http://example.com"
   urlMap["/test3"] = []string{}
+  urlMap["http://example.com"] = []string{ "/test1", "/test2"}
+  urlMap["/test2"] = []string{}
+  urlMap["/test1"] = []string{ "/test3" }
 
-  expectation := []string{ "/test1", "/test2", "/test3", "http://example.com" }
+  expectation := []string{ "http://example.com", "/test1", "/test2", "/test3" }
 
-  result := alphabeticalOrder(urlMap)
+  result := order(urlMap, seed)
 
   if reflect.DeepEqual(result, expectation) == false {
     t.Errorf("alphabeticalOrder incorrect, got: %s, want: %s", result, expectation)

@@ -1,33 +1,32 @@
 package urlPrinter
 
 import (
-  "fmt"
+  // "fmt"
   "sort"
 )
 
-type UrlMap map[string][]string
-
-func Print(urlMap UrlMap, seedUrl string) string {
-  output := "-- SEED: " + seedUrl + " --\n"
-  orderedKeys := alphabeticalOrder(urlMap)
+func Print(urlMap map[string][]string, seedUrl string) string {
+  output := "-- SEED: " + seedUrl + " --\n\n"
+  orderedKeys := order(urlMap, seedUrl)
   for _, key := range orderedKeys {
-    fmt.Println(key)
-    output += key + " :\n"
+    output += "- " + key + ":\n"
     for i := 0; i < len(urlMap[key]); i++ {
-      output += "   " + urlMap[key][i] + "\n"
+      output += "    " + urlMap[key][i] + "\n"
     }
     output += "\n"
   }
+  output += "-- END --\n"
   return output
 }
 
-func alphabeticalOrder(urlMap UrlMap) []string {
-  orderedKeys := make([]string, len(urlMap))
-  i := 0
+func order(urlMap map[string][]string, seedUrl string) []string {
+  orderedKeys := []string{}
   for k, _ := range urlMap {
-      orderedKeys[i] = k
-      i++
+      if k != seedUrl {
+        orderedKeys = append(orderedKeys, k)
+      }
   }
   sort.Strings(orderedKeys)
+  orderedKeys = append([]string{seedUrl}, orderedKeys...)
   return orderedKeys
 }
