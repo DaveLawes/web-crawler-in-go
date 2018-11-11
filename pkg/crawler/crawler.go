@@ -36,7 +36,7 @@ func Crawl(seedUrl string, client HttpClient) (urlMap UrlMap) {
       // fmt.Println(len(urlQueue))
       // fmt.Println(urlMap)
       // fmt.Println(len(urlMap))
-      if i == 100 {
+      if i == len(urlMap) {
         fmt.Println("all urls crawled")
         crawlComplete = true
       }

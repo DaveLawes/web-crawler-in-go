@@ -81,3 +81,13 @@ func TestExtract_isValid_phoneLink(t *testing.T) {
     t.Errorf("Phone numbers not correctly identified, got: %v, want %v", result, expectation)
   }
 }
+
+func TestExtract_isValid_pageReference(t *testing.T) {
+  pageReference := "#jobs"
+  result := isValid(pageReference)
+  expectation := false
+
+  if result != expectation {
+    t.Errorf("Page references not correctly identified, got: %v, want %v", result, expectation)
+  }
+}

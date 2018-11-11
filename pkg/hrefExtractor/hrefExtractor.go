@@ -49,9 +49,11 @@ func getLinkFromTag(tag html.Token) (href string, success bool) {
 }
 
 func isValid(link string) (success bool) {
-  parsed, error := url.Parse(link)
-  if error == nil && len(parsed.Hostname()) == 0 && !isPhone(link) {
-    success = true
+  parsed, err := url.Parse(link)
+  if err == nil && len(parsed.Hostname()) == 0 && !isPhone(link) {
+    if link[0:1] == "/" {
+        success = true
+    }
   }
   return
 }
